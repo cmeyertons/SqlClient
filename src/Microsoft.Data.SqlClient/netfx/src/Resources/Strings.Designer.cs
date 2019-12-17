@@ -7351,7 +7351,7 @@ namespace System {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &apos;Asynchronous Processing&apos; is not a supported feature of the .NET Framework Data OLE DB Provider(Microsoft.Data.OleDb)..
+        ///   Looks up a localized string similar to &apos;Asynchronous Processing&apos; is not a supported feature of the .NET Framework Data OLE DB Provider(PwC.Data.OleDb)..
         /// </summary>
         internal static string OleDb_AsynchronousNotSupported {
             get {
@@ -7369,7 +7369,7 @@ namespace System {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Microsoft.Data.OleDb.OleDbDataAdapter internal error: invalid parameter accessor: {0} {1}..
+        ///   Looks up a localized string similar to PwC.Data.OleDb.OleDbDataAdapter internal error: invalid parameter accessor: {0} {1}..
         /// </summary>
         internal static string OleDb_BadStatus_ParamAcc {
             get {
@@ -7522,7 +7522,7 @@ namespace System {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DBTYPE_VECTOR data is not supported by the .NET Framework Data OLE DB Provider(Microsoft.Data.OleDb)..
+        ///   Looks up a localized string similar to DBTYPE_VECTOR data is not supported by the .NET Framework Data OLE DB Provider(PwC.Data.OleDb)..
         /// </summary>
         internal static string OleDb_DBBindingGetVector {
             get {
@@ -7657,7 +7657,7 @@ namespace System {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The .NET Framework Data Provider for OLEDB (Microsoft.Data.OleDb) does not support the Microsoft OLE DB Provider for ODBC Drivers (MSDASQL). Use the .NET Framework Data Provider for ODBC (System.Data.Odbc)..
+        ///   Looks up a localized string similar to The .NET Framework Data Provider for OLEDB (PwC.Data.OleDb) does not support the Microsoft OLE DB Provider for ODBC Drivers (MSDASQL). Use the .NET Framework Data Provider for ODBC (System.Data.Odbc)..
         /// </summary>
         internal static string OleDb_MSDASQLNotSupported {
             get {

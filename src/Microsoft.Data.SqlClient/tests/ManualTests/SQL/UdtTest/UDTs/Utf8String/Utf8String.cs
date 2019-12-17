@@ -5,7 +5,7 @@
 using System;
 using System.Data.SqlTypes;
 using System.Globalization;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 
 namespace Microsoft.Samples.SqlServer
 {

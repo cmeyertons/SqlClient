@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
 {
     /// <summary>
     /// Class which reads the crypto test value vectors from resource text file, which was generated with native code.

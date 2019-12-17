@@ -6,7 +6,7 @@ using System;
 using System.Security.Cryptography.X509Certificates;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests
+namespace PwC.Data.SqlClient.Tests.AlwaysEncryptedTests
 {
     public class ExceptionsCertStore : IClassFixture<ExceptionCertFixture>
     {

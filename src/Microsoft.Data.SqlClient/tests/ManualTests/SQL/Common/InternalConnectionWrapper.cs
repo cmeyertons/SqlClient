@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Threading;
-using Microsoft.Data.SqlClient.ManualTesting.Tests.SystemDataInternals;
+using PwC.Data.SqlClient.ManualTesting.Tests.SystemDataInternals;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class InternalConnectionWrapper
     {

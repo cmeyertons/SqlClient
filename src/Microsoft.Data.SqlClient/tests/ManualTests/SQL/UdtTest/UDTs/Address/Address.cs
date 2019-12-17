@@ -5,7 +5,7 @@
 using System;
 using System.Data.SqlTypes;
 using System.IO;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 
 [Serializable]
 [SqlUserDefinedType(Format.UserDefined, IsByteOrdered = false, MaxByteSize = 500)]

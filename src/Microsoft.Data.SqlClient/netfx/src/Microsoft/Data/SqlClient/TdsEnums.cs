@@ -5,7 +5,7 @@
 using System;
 using System.Data;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <devdoc> Class of variables for the Tds connection.
     /// </devdoc>

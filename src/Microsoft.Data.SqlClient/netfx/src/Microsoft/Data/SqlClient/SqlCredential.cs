@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Security;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlCredential.xml' path='docs/members[@name="SqlCredential"]/SqlCredential/*' />
     // Represent a pair of user id and password which to be used for SQL Authentication
@@ -71,6 +71,6 @@ namespace Microsoft.Data.SqlClient
             }
         }
     }
-}   // Microsoft.Data.SqlClient namespace
+}   // PwC.Data.SqlClient namespace
 
 

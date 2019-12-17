@@ -10,10 +10,10 @@ using System.Globalization;
 using System.Reflection;
 using System.Security;
 using System.Security.Permissions;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 using DBDataPermission = System.Data.Common.DBDataPermission;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlClientPermission.xml' path='docs/members[@name="SqlClientPermission"]/SqlClientPermission/*' />
     [Serializable]

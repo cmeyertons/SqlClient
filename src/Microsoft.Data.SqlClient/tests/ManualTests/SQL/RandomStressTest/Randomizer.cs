@@ -6,7 +6,7 @@ using System;
 using System.Runtime.Serialization;
 using System.Threading;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     /// <summary>
     /// Random number generator that tracks information necessary to reproduce a sequence of random numbers. To save the current state, 

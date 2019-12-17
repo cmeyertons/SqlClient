@@ -8,7 +8,7 @@ using System.Data;
 using System.Threading;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class ConnectionOnMirroringTest
     {

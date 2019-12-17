@@ -12,9 +12,9 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 using System.Threading;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
 
     internal static class LocalDBAPI

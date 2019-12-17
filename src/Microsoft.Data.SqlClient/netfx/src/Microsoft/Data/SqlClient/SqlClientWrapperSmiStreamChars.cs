@@ -4,10 +4,10 @@
 
 using System.Diagnostics;
 using System.IO;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.Common;
+using PwC.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // Simple SqlStreamChars wrapper over SmiStream that handles server events on the 
     //  SqlClient side of Smi

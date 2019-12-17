@@ -10,7 +10,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     /// <summary>
     /// represents table with random column types and values in it

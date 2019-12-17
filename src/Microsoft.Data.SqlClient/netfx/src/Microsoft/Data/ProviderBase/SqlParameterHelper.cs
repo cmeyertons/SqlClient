@@ -6,9 +6,9 @@ using System;
 using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     public sealed partial class SqlParameter : DbParameter
     { // V1.2.3300

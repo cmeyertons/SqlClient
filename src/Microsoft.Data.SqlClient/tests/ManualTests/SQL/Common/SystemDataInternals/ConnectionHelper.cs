@@ -6,7 +6,7 @@ using System;
 using System.Diagnostics;
 using System.Reflection;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.SystemDataInternals
+namespace PwC.Data.SqlClient.ManualTesting.Tests.SystemDataInternals
 {
     internal static class ConnectionHelper
     {

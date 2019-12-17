@@ -6,7 +6,7 @@ using System;
 using System.Diagnostics;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     [OuterLoop("Takes minutes on some networks")]
     public static class TcpDefaultForAzureTest

@@ -6,9 +6,9 @@ using System;
 using System.Data;
 using System.Data.SqlTypes;
 using System.Diagnostics;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // TdsRecordBufferSetter handles writing a structured value out to a TDS stream
     internal class TdsRecordBufferSetter : SmiRecordBuffer

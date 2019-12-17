@@ -11,10 +11,10 @@ using System.Runtime.Versioning;
 using System.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlClient;
+using PwC.Data.Common;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal static class SNINativeMethodWrapper
     {
@@ -872,7 +872,7 @@ namespace Microsoft.Data.SqlClient
     }
 }
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
     internal static partial class SafeNativeMethods
     {
@@ -881,7 +881,7 @@ namespace Microsoft.Data
     }
 }
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
     internal static class Win32NativeMethods
     {

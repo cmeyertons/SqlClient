@@ -7,10 +7,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlTypes;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.Tests
+namespace PwC.Data.SqlClient.Tests
 {
     public class SqlDataRecordTest
     {

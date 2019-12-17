@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
 {
     /// <summary>
     /// Encryption Type as per the test code. Different than product code's enumeration.

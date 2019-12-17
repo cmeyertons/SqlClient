@@ -5,10 +5,10 @@
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
-using Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
-using Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.TestFixtures.Setup;
+using PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
+using PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.TestFixtures.Setup;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
 {
     public class SQLSetupStrategy : IDisposable
     {

@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
 
     using System;
@@ -17,8 +17,8 @@ namespace Microsoft.Data.ProviderBase
     using System.Runtime.Versioning;
     using System.Threading;
     using System.Threading.Tasks;
-    using Microsoft.Data.Common;
-    using Microsoft.Data.SqlClient;
+    using PwC.Data.Common;
+    using PwC.Data.SqlClient;
     using SysTx = System.Transactions;
 
     sealed internal class DbConnectionPool
@@ -1209,7 +1209,7 @@ namespace Microsoft.Data.ProviderBase
                         try
                         {
 #if DEBUG
-                            Microsoft.Data.SqlClient.TdsParser.ReliabilitySection tdsReliabilitySection = new Microsoft.Data.SqlClient.TdsParser.ReliabilitySection();
+                            PwC.Data.SqlClient.TdsParser.ReliabilitySection tdsReliabilitySection = new PwC.Data.SqlClient.TdsParser.ReliabilitySection();
 
                             RuntimeHelpers.PrepareConstrainedRegions();
                             try {

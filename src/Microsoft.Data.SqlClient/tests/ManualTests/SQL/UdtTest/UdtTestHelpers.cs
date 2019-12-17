@@ -5,7 +5,7 @@
 using System.Reflection;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     internal static class UdtTestHelpers
     {

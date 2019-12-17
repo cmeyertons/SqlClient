@@ -5,7 +5,7 @@
 using System;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.Tests
+namespace PwC.Data.SqlClient.Tests
 {
     public class SqlClientFactoryTest
     {

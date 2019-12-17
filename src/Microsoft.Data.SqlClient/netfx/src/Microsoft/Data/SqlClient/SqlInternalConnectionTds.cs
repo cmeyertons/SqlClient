@@ -15,12 +15,12 @@ using System.Security;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
 using Microsoft.Identity.Client;
 using SysTx = System.Transactions;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal class SessionStateRecord
     {

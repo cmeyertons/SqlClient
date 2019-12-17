@@ -4,7 +4,7 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
@@ -14,9 +14,8 @@ using System.Threading.Tasks;
 using Microsoft.Azure.KeyVault;
 using Microsoft.Azure.KeyVault.WebKey;
 using Microsoft.Azure.KeyVault.Models;
-using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider
+namespace PwC.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider
 {
     /// <summary>
     /// Implementation of column master key store provider that allows client applications to access data when a 
@@ -38,7 +37,7 @@ namespace Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider
 	///	    <format type="text/markdown"><![CDATA[
     /// ## Remarks
     /// 
-    /// **SqlColumnEncryptionAzureKeyVaultProvider** is implemented for Microsoft.Data.SqlClient driver and supports .NET Framework 4.6+ and .NET Core 2.1+.
+    /// **SqlColumnEncryptionAzureKeyVaultProvider** is implemented for PwC.Data.SqlClient driver and supports .NET Framework 4.6+ and .NET Core 2.1+.
     /// The provider name identifier for this implementation is "AZURE_KEY_VAULT" and it is not registered in driver by default.
     /// Client applications must call <xref=Microsoft.Data.SqlClient.SqlConnection.RegisterColumnEncryptionKeyStoreProviders> API only once in the lifetime of driver to register this custom provider by implementing a custom Authentication Callback mechanism.
     /// 

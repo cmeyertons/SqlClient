@@ -27,14 +27,14 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Data.ProviderBase;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.ProviderBase;
+using PwC.Data.SqlClient.Server;
 
-[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("System.Data.DataSetExtensions, PublicKey=" + Microsoft.Data.SqlClient.AssemblyRef.EcmaPublicKeyFull)] // DevDiv Bugs 92166
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("System.Data.DataSetExtensions, PublicKey=" + PwC.Data.SqlClient.AssemblyRef.EcmaPublicKeyFull)] // DevDiv Bugs 92166
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
-    using Microsoft.Data.Common;
+    using PwC.Data.Common;
 
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlConnection.xml' path='docs/members[@name="SqlConnection"]/SqlConnection/*' />
     [DefaultEvent("InfoMessage")]
@@ -3108,6 +3108,6 @@ namespace Microsoft.Data.SqlClient
         [MarshalAs(UnmanagedType.ByValArray, SizeConst = 255)]
         internal byte[] rgbData;
     }
-} // Microsoft.Data.SqlClient namespace
+} // PwC.Data.SqlClient namespace
 
 

@@ -16,7 +16,7 @@ namespace System
 
         internal SRHelper()
         {
-            resources = new ResourceManager("PwC.Data.SqlClient.Resources.SR", this.GetType().Assembly);
+            resources = new ResourceManager("Microsoft.Data.SqlClient.Resources.SR", this.GetType().Assembly);
         }
 
         private static SRHelper GetLoader()

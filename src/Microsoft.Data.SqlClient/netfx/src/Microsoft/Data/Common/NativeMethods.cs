@@ -6,7 +6,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
 
     internal static class NativeMethods

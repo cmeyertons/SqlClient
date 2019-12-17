@@ -17,9 +17,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using SysTx = System.Transactions;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
-    using Microsoft.Data.Common;
+    using PwC.Data.Common;
     static internal class AsyncHelper
     {
         internal static Task CreateContinuationTask(Task task, Action onSuccess, SqlInternalConnectionTds connectionToDoom = null, Action<Exception> onFailure = null)
@@ -2023,7 +2023,7 @@ namespace Microsoft.Data.SqlClient
         {
             return ADP.InvalidOperation(StringsHelper.GetString(Strings.SQL_NotificationsNotAvailableOnContextConnection));
         }
-        static internal Exception UnexpectedSmiEvent(Microsoft.Data.SqlClient.Server.SmiEventSink_Default.UnexpectedEventType eventType)
+        static internal Exception UnexpectedSmiEvent(PwC.Data.SqlClient.Server.SmiEventSink_Default.UnexpectedEventType eventType)
         {
             Debug.Assert(false, "UnexpectedSmiEvent: " + eventType.ToString());    // Assert here, because these exceptions will most likely be eaten by the server.
             return ADP.InvalidOperation(StringsHelper.GetString(Strings.SQL_UnexpectedSmiEvent, (int)eventType));

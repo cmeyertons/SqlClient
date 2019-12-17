@@ -6,7 +6,7 @@
 
 using System.IO;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     internal abstract class SmiStream
     {

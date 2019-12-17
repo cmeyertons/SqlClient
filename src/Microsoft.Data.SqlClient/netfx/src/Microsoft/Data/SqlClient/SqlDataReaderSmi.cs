@@ -12,12 +12,12 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
-using Microsoft.Data.SqlClient.Server;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
+using PwC.Data.SqlClient.Server;
+using PwC.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // SqlServer provider's implementation of ISqlReader.
     //    Supports ISqlReader and ISqlResultSet objects.

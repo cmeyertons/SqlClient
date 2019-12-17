@@ -10,7 +10,7 @@ using System.Security;
 using System.Text;
 using System.Threading;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
 
     [SuppressUnmanagedCodeSecurityAttribute()]

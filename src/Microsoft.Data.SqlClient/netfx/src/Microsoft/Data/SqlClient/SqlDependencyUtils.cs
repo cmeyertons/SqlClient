@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // This is a singleton instance per AppDomain that acts as the notification dispatcher for
     // that AppDomain.  It receives calls from the SqlDependencyProcessDispatcher with an ID or a server name

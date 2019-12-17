@@ -7,9 +7,9 @@ using System.Collections;
 using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.Versioning;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed class SqlConnectionString : DbConnectionOptions
     {
@@ -900,7 +900,7 @@ namespace Microsoft.Data.SqlClient
             }
         }
 
-        internal Microsoft.Data.SqlClient.ApplicationIntent ConvertValueToApplicationIntent()
+        internal PwC.Data.SqlClient.ApplicationIntent ConvertValueToApplicationIntent()
         {
             object value = base.Parsetable[KEY.ApplicationIntent];
             if (value == null)
@@ -925,7 +925,7 @@ namespace Microsoft.Data.SqlClient
             // ArgumentException and other types are raised as is (no wrapping)
         }
 
-        internal Microsoft.Data.SqlClient.PoolBlockingPeriod ConvertValueToPoolBlockingPeriod()
+        internal PwC.Data.SqlClient.PoolBlockingPeriod ConvertValueToPoolBlockingPeriod()
         {
             object value = base.Parsetable[KEY.PoolBlockingPeriod];
             if (value == null)

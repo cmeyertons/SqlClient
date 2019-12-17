@@ -15,11 +15,11 @@ using System.Security.Permissions;
 using System.Text;
 using System.Threading;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
-using Microsoft.Data.Sql;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
+using PwC.Data.Sql;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlDependency.xml' path='docs/members[@name="SqlDependency"]/SqlDependency/*' />
     public sealed class SqlDependency

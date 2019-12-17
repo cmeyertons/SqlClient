@@ -10,11 +10,11 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
-using Microsoft.Data.SqlClient.ManualTesting.Tests.SystemDataInternals;
+using PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
+using PwC.Data.SqlClient.ManualTesting.Tests.SystemDataInternals;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
 {
     /// <summary>
     /// Always Encrypted public API Manual tests.

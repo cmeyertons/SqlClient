@@ -5,7 +5,7 @@
 using System.Net.Sockets;
 using System.Threading.Tasks;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class InstanceNameTest
     {

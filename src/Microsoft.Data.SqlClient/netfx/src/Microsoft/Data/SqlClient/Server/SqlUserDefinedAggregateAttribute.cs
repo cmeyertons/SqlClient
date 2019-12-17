@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     /// <include file='..\..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient.Server\SqlUserDefinedAggregateAttribute.xml' path='docs/members[@name="SqlUserDefinedAggregateAttribute"]/SqlUserDefinedAggregateAttribute/*' />
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = false, Inherited = false)]
@@ -31,13 +31,13 @@ namespace Microsoft.Data.SqlClient.Server
             switch (format)
             {
                 case Format.Unknown:
-                    throw ADP.NotSupportedUserDefinedTypeSerializationFormat((Microsoft.Data.SqlClient.Server.Format)format, "format");
+                    throw ADP.NotSupportedUserDefinedTypeSerializationFormat((PwC.Data.SqlClient.Server.Format)format, "format");
                 case Format.Native:
                 case Format.UserDefined:
                     this.m_format = format;
                     break;
                 default:
-                    throw ADP.InvalidUserDefinedTypeSerializationFormat((Microsoft.Data.SqlClient.Server.Format)format);
+                    throw ADP.InvalidUserDefinedTypeSerializationFormat((PwC.Data.SqlClient.Server.Format)format);
             }
         }
 

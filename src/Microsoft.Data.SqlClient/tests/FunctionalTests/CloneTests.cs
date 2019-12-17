@@ -6,7 +6,7 @@ using System;
 using System.Data;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.Tests
+namespace PwC.Data.SqlClient.Tests
 {
     public class CloneTests
     {

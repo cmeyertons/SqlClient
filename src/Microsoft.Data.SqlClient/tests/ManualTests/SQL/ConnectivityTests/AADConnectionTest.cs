@@ -5,7 +5,7 @@
 using Xunit;
 using System;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class AADConnectionsTest
     {

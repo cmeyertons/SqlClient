@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using System.Security;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
 
     [SuppressUnmanagedCodeSecurityAttribute()]

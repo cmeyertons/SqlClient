@@ -5,7 +5,7 @@
 using System;
 using System.Net;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <summary>
     /// Class to pass original client information.

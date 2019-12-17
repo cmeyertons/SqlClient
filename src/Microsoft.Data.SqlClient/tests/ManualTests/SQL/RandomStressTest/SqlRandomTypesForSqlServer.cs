@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.Common;
 using System.Diagnostics;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     internal sealed class SqlVarBinaryTypeInfo : SqlRandomTypeInfo
     {
@@ -1185,7 +1185,7 @@ namespace Microsoft.Data.SqlClient.ManualTesting.Tests
             ValidateReadType(typeof(DateTimeOffset), asType);
             if (reader.IsDBNull(ordinal))
                 return DBNull.Value;
-            return ((Microsoft.Data.SqlClient.SqlDataReader)reader).GetDateTimeOffset(ordinal);
+            return ((PwC.Data.SqlClient.SqlDataReader)reader).GetDateTimeOffset(ordinal);
         }
 
         protected override bool CompareValuesInternal(SqlRandomTableColumn columnInfo, object expected, object actual)
@@ -1259,7 +1259,7 @@ namespace Microsoft.Data.SqlClient.ManualTesting.Tests
             ValidateReadType(typeof(TimeSpan), asType);
             if (reader.IsDBNull(ordinal))
                 return DBNull.Value;
-            return ((Microsoft.Data.SqlClient.SqlDataReader)reader).GetTimeSpan(ordinal);
+            return ((PwC.Data.SqlClient.SqlDataReader)reader).GetTimeSpan(ordinal);
         }
 
         protected override bool CompareValuesInternal(SqlRandomTableColumn columnInfo, object expected, object actual)

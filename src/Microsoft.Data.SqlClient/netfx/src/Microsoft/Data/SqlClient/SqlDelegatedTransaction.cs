@@ -7,10 +7,10 @@ using System.Data;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 using SysTx = System.Transactions;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     sealed internal class SqlDelegatedTransaction : SysTx.IPromotableSinglePhaseNotification

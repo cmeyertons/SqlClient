@@ -6,9 +6,9 @@ using System;
 using System.Data;
 using System.Data.SqlTypes;
 using System.Globalization;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     /// <include file='..\..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient.Server\SqlMetaData.xml' path='docs/members[@name="SqlMetaData"]/SqlMetaData/*' />
     // class SqlMetaData
@@ -803,7 +803,7 @@ namespace Microsoft.Data.SqlClient.Server
             if (null == name)
                 throw ADP.ArgumentNull("name");
 
-            if (Microsoft.Data.SqlClient.Server.SmiMetaData.MaxNameLength < name.Length)
+            if (PwC.Data.SqlClient.Server.SmiMetaData.MaxNameLength < name.Length)
                 throw SQL.NameTooLong("name");
         }
 

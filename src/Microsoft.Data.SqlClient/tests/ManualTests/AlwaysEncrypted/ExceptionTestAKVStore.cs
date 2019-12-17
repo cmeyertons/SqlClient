@@ -4,10 +4,10 @@
 
 using System;
 using System.Security.Cryptography;
-using Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
+using PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
 {
     public class ExceptionTestAKVStore : IClassFixture<SQLSetupStrategyAzureKeyVault>
     {

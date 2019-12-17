@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.SqlTypes;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
 {
     public abstract class ColumnMasterKey : DbObject
     {

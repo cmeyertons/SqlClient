@@ -4,9 +4,9 @@
 
 using System;
 using System.Reflection;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     internal static class GreenMethods
     {

@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Xml;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // Caches the bytes returned from partial length prefixed datatypes, like XML
     sealed internal class SqlCachedBuffer : System.Data.SqlTypes.INullable

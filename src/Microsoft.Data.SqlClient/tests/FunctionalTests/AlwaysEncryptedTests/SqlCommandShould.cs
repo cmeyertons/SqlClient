@@ -4,9 +4,9 @@
 
 using Xunit;
 
-using static Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests.TestFixtures;
+using static PwC.Data.SqlClient.Tests.AlwaysEncryptedTests.TestFixtures;
 
-namespace Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests
+namespace PwC.Data.SqlClient.Tests.AlwaysEncryptedTests
 {
     public class SqlCommandShould
     {

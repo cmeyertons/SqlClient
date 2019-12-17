@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider
+namespace PwC.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider
 {
     using System;
 

@@ -10,9 +10,9 @@ using System.Security;
 using Microsoft.Win32.SafeHandles;
 using System.Runtime.Versioning;
 using System.Diagnostics.CodeAnalysis;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlTypes
+namespace PwC.Data.SqlTypes
 {
     [SuppressUnmanagedCodeSecurity]
     internal static class UnsafeNativeMethods

@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
+using PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.TestFixtures.Setup
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.TestFixtures.Setup
 {
     public class BulkCopyTruncationTables : Table
     {

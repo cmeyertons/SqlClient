@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
 
     using System;
@@ -13,7 +13,7 @@ namespace Microsoft.Data.ProviderBase
     using System.Security.Permissions;
     using System.Threading;
     using System.Threading.Tasks;
-    using Microsoft.Data.Common;
+    using PwC.Data.Common;
     using SysTx = System.Transactions;
 
     internal abstract class DbConnectionInternal
@@ -520,7 +520,7 @@ namespace Microsoft.Data.ProviderBase
                             else
                             {
                                 PerformanceCounters.NumberOfNonPooledConnections.Decrement();
-                                if (this.GetType() != typeof(Microsoft.Data.SqlClient.SqlInternalConnectionSmi))
+                                if (this.GetType() != typeof(PwC.Data.SqlClient.SqlInternalConnectionSmi))
                                 {
                                     Dispose();
                                 }

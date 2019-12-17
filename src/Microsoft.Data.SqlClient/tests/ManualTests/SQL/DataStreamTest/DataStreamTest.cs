@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class DataStreamTest
     {

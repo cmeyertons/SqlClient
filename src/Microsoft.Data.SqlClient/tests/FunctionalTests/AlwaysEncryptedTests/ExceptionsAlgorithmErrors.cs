@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using Xunit;
-using static Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests.Utility;
+using static PwC.Data.SqlClient.Tests.AlwaysEncryptedTests.Utility;
 
-namespace Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests
+namespace PwC.Data.SqlClient.Tests.AlwaysEncryptedTests
 {
     public class ExceptionsAlgorithmErrors : IClassFixture<CertFixture>
     {

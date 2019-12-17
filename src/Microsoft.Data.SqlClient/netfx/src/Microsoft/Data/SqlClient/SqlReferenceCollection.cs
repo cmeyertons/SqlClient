@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using Microsoft.Data.ProviderBase;
+using PwC.Data.ProviderBase;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     sealed internal class SqlReferenceCollection : DbReferenceCollection
     {

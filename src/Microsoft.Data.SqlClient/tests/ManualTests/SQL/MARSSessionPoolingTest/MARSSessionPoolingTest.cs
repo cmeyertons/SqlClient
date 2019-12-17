@@ -7,7 +7,7 @@ using System.Data;
 using System.Runtime.CompilerServices;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class MARSSessionPoolingTest
     {

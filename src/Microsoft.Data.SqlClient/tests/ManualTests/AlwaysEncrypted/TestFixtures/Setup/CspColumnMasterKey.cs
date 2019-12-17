@@ -5,7 +5,7 @@
 using System;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
 {
     public class CspColumnMasterKey : ColumnMasterKey
     {

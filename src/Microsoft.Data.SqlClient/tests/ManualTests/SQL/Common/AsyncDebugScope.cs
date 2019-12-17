@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Data.SqlClient.ManualTesting.Tests.SystemDataInternals;
+using PwC.Data.SqlClient.ManualTesting.Tests.SystemDataInternals;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class AsyncDebugScope : IDisposable
     {

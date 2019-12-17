@@ -7,9 +7,9 @@ using System.Globalization;
 using System.Runtime.Versioning;
 using System.Security.Permissions;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
-    using Microsoft.Data.Common;
+    using PwC.Data.Common;
 
     internal sealed class TdsParserStaticMethods
     {

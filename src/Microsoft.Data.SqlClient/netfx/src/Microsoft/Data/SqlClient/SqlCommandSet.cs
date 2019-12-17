@@ -9,9 +9,9 @@ using System.Data.Common;
 using System.Diagnostics;
 using System.Text;
 using System.Text.RegularExpressions;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed class SqlCommandSet
     {
@@ -145,7 +145,7 @@ namespace Microsoft.Data.SqlClient
                     break;
                 case CommandType.TableDirect:
                     Debug.Assert(false, "command.CommandType");
-                    throw Microsoft.Data.SqlClient.SQL.NotSupportedCommandType(commandType);
+                    throw PwC.Data.SqlClient.SQL.NotSupportedCommandType(commandType);
                 default:
                     Debug.Assert(false, "command.CommandType");
                     throw ADP.InvalidCommandType(commandType);

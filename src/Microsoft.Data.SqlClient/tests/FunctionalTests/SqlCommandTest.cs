@@ -4,10 +4,10 @@
 
 using System;
 using System.Data;
-using Microsoft.Data.Sql;
+using PwC.Data.Sql;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.Tests
+namespace PwC.Data.SqlClient.Tests
 {
     public partial class SqlCommandTest
     {

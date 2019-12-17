@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider
+namespace PwC.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider
 {
     internal static class Constants
     {

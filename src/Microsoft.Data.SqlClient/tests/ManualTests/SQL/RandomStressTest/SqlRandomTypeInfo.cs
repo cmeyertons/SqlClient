@@ -8,7 +8,7 @@ using System.Data.Common;
 using System.Globalization;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     /// <summary>
     /// represents a base class for SQL type random generation

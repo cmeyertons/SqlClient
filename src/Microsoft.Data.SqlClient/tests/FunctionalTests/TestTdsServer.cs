@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 using Microsoft.SqlServer.TDS.EndPoint;
 using Microsoft.SqlServer.TDS.Servers;
 
-namespace Microsoft.Data.SqlClient.Tests
+namespace PwC.Data.SqlClient.Tests
 {
     internal class TestTdsServer : GenericTDSServer, IDisposable
     {

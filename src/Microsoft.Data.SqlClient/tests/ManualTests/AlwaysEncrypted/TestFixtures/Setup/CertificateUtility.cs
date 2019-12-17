@@ -14,7 +14,7 @@ using Microsoft.Azure.KeyVault.Models;
 using Microsoft.Azure.KeyVault.WebKey;
 using Microsoft.Rest.Azure;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
 {
     class CertificateUtility
     {

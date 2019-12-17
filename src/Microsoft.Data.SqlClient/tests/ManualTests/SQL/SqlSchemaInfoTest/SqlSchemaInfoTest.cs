@@ -10,7 +10,7 @@ using System.Data.Common;
 using System.Linq;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class SqlSchemaInfoTest
     {

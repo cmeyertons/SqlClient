@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.using System;
 
 using System.Collections.Generic;
-using Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
+using PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
 {
     public class SQLSetupStrategyCertStoreProvider : SQLSetupStrategy
     {

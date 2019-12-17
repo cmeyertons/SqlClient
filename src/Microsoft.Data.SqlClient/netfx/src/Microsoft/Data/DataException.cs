@@ -8,7 +8,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Globalization;
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
 
     internal static class ExceptionBuilder
@@ -664,7 +664,7 @@ namespace Microsoft.Data
 
         static public Exception ColumnTypeNotSupported()
         {
-            return Microsoft.Data.Common.ADP.NotSupported(StringsHelper.GetString(Strings.DataColumn_NullableTypesNotSupported));
+            return PwC.Data.Common.ADP.NotSupported(StringsHelper.GetString(Strings.DataColumn_NullableTypesNotSupported));
         }
 
         //

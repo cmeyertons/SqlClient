@@ -10,7 +10,7 @@ using Xunit;
 using System.IO;
 using System.Runtime.Serialization;
 
-namespace Microsoft.Data.SqlClient.Tests
+namespace PwC.Data.SqlClient.Tests
 {
     public class SerializeSqlTypesTests
     {

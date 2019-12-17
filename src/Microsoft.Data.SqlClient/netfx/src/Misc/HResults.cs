@@ -77,10 +77,10 @@ namespace System
         internal const int CommandExecution = unchecked((int)0x8013193C);
 
 
-        internal const int SqlException = unchecked((int)0x80131904); // Microsoft.Data.SqlClient.SqlClientException
+        internal const int SqlException = unchecked((int)0x80131904); // PwC.Data.SqlClient.SqlClientException
         internal const int OdbcException = unchecked((int)0x80131937);   // System.Data.Odbc.OdbcException
         internal const int OracleException = unchecked((int)0x80131938); // System.Data.OracleClient.OracleException
-        internal const int ConnectionPlanException = unchecked((int)0x8013193d); // Microsoft.Data.SqlClient.ConnectionPlanException
+        internal const int ConnectionPlanException = unchecked((int)0x8013193d); // PwC.Data.SqlClient.ConnectionPlanException
 
         // Configuration encryption
         internal const int NteBadKeySet = unchecked((int)0x80090016);

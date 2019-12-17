@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     // simple storage to contain objects that must be generated prior to sending data, but

@@ -7,7 +7,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <summary>
     /// This is a factory class for AEAD_AES_256_CBC_HMAC_SHA256

@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.Common;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     sealed internal class SqlSequentialStreamSmi : System.IO.Stream
     {

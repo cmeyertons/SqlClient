@@ -6,7 +6,7 @@ using System;
 using System.Data.SqlTypes;
 using System.Diagnostics;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
 
     // Class for implementing a record object used in out-of-proc scenarios.

@@ -4,10 +4,10 @@
 
 using System.Reflection;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     /// <summary>
-    /// Allows user to get resource messages from microsoft.data.sqlclient.dll using dynamic properties/methods.
+    /// Allows user to get resource messages from PwC.Data.sqlclient.dll using dynamic properties/methods.
     /// Refer to comments inside AssemblyResourceManager.cs for more details.
     /// </summary>
     public class SystemDataResourceManager : AssemblyResourceManager
@@ -20,7 +20,7 @@ namespace Microsoft.Data.SqlClient.ManualTesting.Tests
                 return s_instance;
             }
         }
-        private SystemDataResourceManager() : base(typeof(Microsoft.Data.SqlClient.SqlConnection).GetTypeInfo().Assembly)
+        private SystemDataResourceManager() : base(typeof(PwC.Data.SqlClient.SqlConnection).GetTypeInfo().Assembly)
         {
         }
     }

@@ -5,11 +5,11 @@
 using System;
 using System.Reflection;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.SystemDataInternals
+namespace PwC.Data.SqlClient.ManualTesting.Tests.SystemDataInternals
 {
     internal static class TdsParserStateObjectHelper
     {
-        private static Assembly s_systemDotData = typeof(Microsoft.Data.SqlClient.SqlConnection).GetTypeInfo().Assembly;
+        private static Assembly s_systemDotData = typeof(PwC.Data.SqlClient.SqlConnection).GetTypeInfo().Assembly;
         private static Type s_tdsParserStateObject = s_systemDotData.GetType("Microsoft.Data.SqlClient.TdsParserStateObject");
         private static Type s_tdsParserStateObjectNative = s_systemDotData.GetType("Microsoft.Data.SqlClient.TdsParserStateObjectNative");
         private static FieldInfo s_forceAllPends = s_tdsParserStateObject.GetField("_forceAllPends", BindingFlags.Static | BindingFlags.NonPublic);

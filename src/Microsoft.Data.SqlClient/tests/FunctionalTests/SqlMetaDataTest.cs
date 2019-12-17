@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Data;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.Tests
+namespace PwC.Data.SqlClient.Tests
 {
     public class SqlMetaDataTest
     {

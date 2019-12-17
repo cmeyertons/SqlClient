@@ -6,9 +6,9 @@ using System;
 using System.Data;
 using System.Diagnostics;
 using System.Threading;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal enum TransactionState
     {

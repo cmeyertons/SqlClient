@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
     using System;
     using System.Runtime.Serialization;
-    using Microsoft.Data.Common;
+    using PwC.Data.Common;
 
     /// <include file='..\..\..\..\..\..\doc\snippets\Microsoft.Data\OperationAbortedException.xml' path='docs/members[@name="OperationAbortedException"]/OperationAbortedException/*' />
     [Serializable]

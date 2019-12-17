@@ -6,7 +6,7 @@ using System;
 using System.Runtime.Caching;
 using System.Threading;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // Maintains a cache of SqlEnclaveSession instances
     internal class EnclaveSessionCache

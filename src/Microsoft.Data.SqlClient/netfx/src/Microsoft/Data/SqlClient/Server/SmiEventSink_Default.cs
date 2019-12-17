@@ -4,7 +4,7 @@
 
 using System.Diagnostics;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
 
     internal class SmiEventSink_Default : SmiEventSink

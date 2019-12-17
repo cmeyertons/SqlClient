@@ -8,7 +8,7 @@ using System.Data.Common;
 using System.Collections;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class SqlStatisticsTest
     {

@@ -6,7 +6,7 @@ using System;
 using System.Data;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     /// <summary>
     /// Test case for SqlBulkEdit raising exception on rows marked as deleted

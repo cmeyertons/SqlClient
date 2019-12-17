@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data.Sql
+namespace PwC.Data.Sql
 {
     using System;
-    using Microsoft.Data;
-    using Microsoft.Data.Common;
+    using PwC.Data;
+    using PwC.Data.Common;
 
     sealed internal class SqlGenericUtil
     {

@@ -6,7 +6,7 @@ using System;
 using System.Transactions;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class AzureDistributedTransaction
     {

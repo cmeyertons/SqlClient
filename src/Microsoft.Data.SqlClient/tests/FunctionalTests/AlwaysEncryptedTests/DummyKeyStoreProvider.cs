@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests
+namespace PwC.Data.SqlClient.Tests.AlwaysEncryptedTests
 {
     /// <summary>
     /// Dummy Key Store Provider.

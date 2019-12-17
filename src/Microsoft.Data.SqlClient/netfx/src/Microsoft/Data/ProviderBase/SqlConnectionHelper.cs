@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     using System;
     using System.Data;
@@ -10,8 +10,8 @@ namespace Microsoft.Data.SqlClient
     using System.Diagnostics;
     using System.Runtime.ConstrainedExecution;
     using System.Threading;
-    using Microsoft.Data.Common;
-    using Microsoft.Data.ProviderBase;
+    using PwC.Data.Common;
+    using PwC.Data.ProviderBase;
     using SysTx = System.Transactions;
 
     public sealed partial class SqlConnection : DbConnection
@@ -79,7 +79,7 @@ namespace Microsoft.Data.SqlClient
         {
             get
             {
-                Microsoft.Data.ProviderBase.DbConnectionPoolGroup poolGroup = PoolGroup;
+                PwC.Data.ProviderBase.DbConnectionPoolGroup poolGroup = PoolGroup;
                 return ((null != poolGroup) ? poolGroup.ConnectionOptions : null);
             }
         }
@@ -102,7 +102,7 @@ namespace Microsoft.Data.SqlClient
         private void ConnectionString_Set(DbConnectionPoolKey key)
         {
             DbConnectionOptions connectionOptions = null;
-            Microsoft.Data.ProviderBase.DbConnectionPoolGroup poolGroup = ConnectionFactory.GetConnectionPoolGroup(key, null, ref connectionOptions);
+            PwC.Data.ProviderBase.DbConnectionPoolGroup poolGroup = ConnectionFactory.GetConnectionPoolGroup(key, null, ref connectionOptions);
             DbConnectionInternal connectionInternal = InnerConnection;
             bool flag = connectionInternal.AllowSetConnectionString;
             if (flag)
@@ -144,7 +144,7 @@ namespace Microsoft.Data.SqlClient
             }
         }
 
-        internal Microsoft.Data.ProviderBase.DbConnectionPoolGroup PoolGroup
+        internal PwC.Data.ProviderBase.DbConnectionPoolGroup PoolGroup
         {
             get
             {
@@ -349,7 +349,7 @@ namespace Microsoft.Data.SqlClient
         {
             Debug.Assert(DbConnectionClosedConnecting.SingletonInstance == _innerConnection, "not connecting");
 
-            Microsoft.Data.ProviderBase.DbConnectionPoolGroup poolGroup = PoolGroup;
+            PwC.Data.ProviderBase.DbConnectionPoolGroup poolGroup = PoolGroup;
             DbConnectionOptions connectionOptions = ((null != poolGroup) ? poolGroup.ConnectionOptions : null);
             if ((null == connectionOptions) || connectionOptions.IsEmpty)
             {

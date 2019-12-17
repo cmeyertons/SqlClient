@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.SystemDataInternals
+namespace PwC.Data.SqlClient.ManualTesting.Tests.SystemDataInternals
 {
     internal static class ConnectionPoolHelper
     {

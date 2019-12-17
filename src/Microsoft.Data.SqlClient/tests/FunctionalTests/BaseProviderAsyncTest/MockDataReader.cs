@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Threading;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     internal class MockDataReader : DbDataReader
     {

@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.SqlTypes;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class AdjustPrecScaleForBulkCopy
     {

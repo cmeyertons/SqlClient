@@ -11,9 +11,9 @@ using System.Security.Principal;
 using System.Text;
 using Xunit;
 using Xunit.Sdk;
-using static Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests.TestFixtures;
+using static PwC.Data.SqlClient.Tests.AlwaysEncryptedTests.TestFixtures;
 
-namespace Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests
+namespace PwC.Data.SqlClient.Tests.AlwaysEncryptedTests
 {
     public class SqlColumnEncryptionCertificateStoreProviderWindowsShould : IClassFixture<CertificateFixture>
     {

@@ -6,7 +6,7 @@ using System;
 using System.Collections;
 using System.ComponentModel;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlErrorCollection.xml' path='docs/members[@name="SqlErrorCollection"]/SqlErrorCollection/*' />
     [Serializable, ListBindable(false)]

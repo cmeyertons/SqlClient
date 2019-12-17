@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data.SqlTypes
+namespace PwC.Data.SqlTypes
 {
     using System;
     using System.Data.SqlTypes;
@@ -187,4 +187,4 @@ namespace Microsoft.Data.SqlTypes
 
     } // class SqlStreamChars
 
-} // namespace Microsoft.Data.SqlTypes 
+} // namespace PwC.Data.SqlTypes 

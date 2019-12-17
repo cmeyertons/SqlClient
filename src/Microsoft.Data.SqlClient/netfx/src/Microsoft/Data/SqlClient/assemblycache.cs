@@ -17,9 +17,9 @@
 
 using System;
 using System.Diagnostics;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     internal sealed class AssemblyCache

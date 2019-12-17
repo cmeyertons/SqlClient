@@ -2,13 +2,13 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     using System.Collections;
     using System.Data;
     using System.Diagnostics;
     using System.Globalization;
-    using Microsoft.Data.Common;
+    using PwC.Data.Common;
 
     internal sealed class FieldNameLookup
     { // V1.2.3300, MDAC 69015, 71470

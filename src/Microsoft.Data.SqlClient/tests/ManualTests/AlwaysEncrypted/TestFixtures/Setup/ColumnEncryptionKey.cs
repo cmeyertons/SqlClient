@@ -5,7 +5,7 @@
 using System;
 using System.Security.Cryptography;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup
 {
     public class ColumnEncryptionKey : DbObject
     {

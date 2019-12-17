@@ -21,13 +21,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using Microsoft.Data.SqlClient;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient;
+using PwC.Data.SqlClient.Server;
 using Microsoft.Win32;
 using SysES = System.EnterpriseServices;
 using SysTx = System.Transactions;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
 
     internal static class ADP
@@ -2636,7 +2636,7 @@ namespace Microsoft.Data.Common
         //    try {
         //        version = (string)ADP.LocalMachineRegistryValue("Software\\Microsoft\\DataAccess", "FullInstallVer");
         //        if (ADP.IsEmpty(version)) {
-        //            string filename = (string)ADP.ClassesRootRegistryValue(Microsoft.Data.OleDb.ODB.DataLinks_CLSID, ADP.StrEmpty);
+        //            string filename = (string)ADP.ClassesRootRegistryValue(PwC.Data.OleDb.ODB.DataLinks_CLSID, ADP.StrEmpty);
         //            FileVersionInfo versionInfo = ADP.GetVersionInfo(filename); // MDAC 60411
         //            major = versionInfo.FileMajorPart;
         //            minor = versionInfo.FileMinorPart;
@@ -2657,7 +2657,7 @@ namespace Microsoft.Data.Common
         //            throw;
         //        }
 
-        //        throw Microsoft.Data.OleDb.ODB.MDACNotAvailable(e);
+        //        throw PwC.Data.OleDb.ODB.MDACNotAvailable(e);
         //    }
 
         //    // disallow any MDAC version before MDAC 2.6 rtm

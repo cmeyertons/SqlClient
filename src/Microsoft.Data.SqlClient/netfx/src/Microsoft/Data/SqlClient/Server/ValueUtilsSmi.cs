@@ -12,10 +12,10 @@ using System.Globalization;
 using System.IO;
 using System.Reflection;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.Common;
+using PwC.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // Utilities for manipulating values with the Smi interface.
     //

@@ -5,7 +5,7 @@
 using System;
 using System.Data;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class OutputParameter
     {

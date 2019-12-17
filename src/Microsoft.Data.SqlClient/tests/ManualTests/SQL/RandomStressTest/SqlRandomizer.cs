@@ -8,7 +8,7 @@ using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.Globalization;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     /// <summary>
     /// Generates random values for SQL Server testing, such as DateTime and Money. Instances of this class are not thread safe!

@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     /// <include file='..\..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient.Server\DataAccessKind.xml' path='docs/members[@name="DataAccessKind"]/DataAccessKind/*' />
     [Serializable]

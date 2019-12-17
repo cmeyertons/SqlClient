@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // Simple wrapper over SmiStream that handles server events on the SqlClient side of Smi
     internal class SqlClientWrapperSmiStream : Stream

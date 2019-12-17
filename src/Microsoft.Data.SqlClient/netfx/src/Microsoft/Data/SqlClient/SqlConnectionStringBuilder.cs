@@ -12,9 +12,9 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Reflection;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlConnectionStringBuilder.xml' path='docs/members[@name="SqlConnectionStringBuilder"]/SqlConnectionStringBuilder/*' />
     [DefaultProperty("DataSource")]
@@ -1157,7 +1157,7 @@ namespace Microsoft.Data.SqlClient
         {
             get
             {
-                return new Microsoft.Data.Common.ReadOnlyCollection<string>(_validKeywords);
+                return new PwC.Data.Common.ReadOnlyCollection<string>(_validKeywords);
             }
         }
 
@@ -1173,7 +1173,7 @@ namespace Microsoft.Data.SqlClient
                 {
                     values[i] = GetAt((Keywords)i);
                 }
-                return new Microsoft.Data.Common.ReadOnlyCollection<object>(values);
+                return new PwC.Data.Common.ReadOnlyCollection<object>(values);
             }
         }
 

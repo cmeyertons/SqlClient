@@ -8,7 +8,7 @@ using System.Data.SqlTypes;
 using Microsoft.Samples.SqlServer;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class UdtTest
     {

@@ -12,10 +12,10 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.Common;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed class MetaType
     {

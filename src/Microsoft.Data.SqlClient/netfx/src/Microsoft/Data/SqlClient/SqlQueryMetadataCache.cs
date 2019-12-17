@@ -10,7 +10,7 @@ using System.Runtime.Caching;
 using System.Text;
 using System.Threading;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <summary>
     /// <para> Implements a cache of query paramater metadata that is used to avoid the extra roundtrip to the server for every execution of the same query.</para>

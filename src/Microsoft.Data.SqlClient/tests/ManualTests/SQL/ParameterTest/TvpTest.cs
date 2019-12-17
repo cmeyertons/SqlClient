@@ -13,10 +13,10 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class TvpTest
     {

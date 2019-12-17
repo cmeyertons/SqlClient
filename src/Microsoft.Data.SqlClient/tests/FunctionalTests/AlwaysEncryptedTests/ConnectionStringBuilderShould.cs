@@ -5,7 +5,7 @@
 using System.Reflection;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.Tests.AlwaysEncryptedTests
+namespace PwC.Data.SqlClient.Tests.AlwaysEncryptedTests
 {
     public class ConnectionStringBuilderShould
     {

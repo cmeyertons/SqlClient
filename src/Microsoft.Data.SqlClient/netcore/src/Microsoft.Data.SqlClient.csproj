@@ -589,7 +589,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <EmbeddedResource Include="Resources\PwC.Data.SqlClient.SqlMetaData.xml">
+    <EmbeddedResource Include="Resources\Microsoft.Data.SqlClient.SqlMetaData.xml">
       <LogicalName>Microsoft.Data.SqlClient.SqlMetaData.xml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>

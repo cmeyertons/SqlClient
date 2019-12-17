@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     /// <summary>
     /// Represents the key of dbConnectionPoolAuthenticationContext.

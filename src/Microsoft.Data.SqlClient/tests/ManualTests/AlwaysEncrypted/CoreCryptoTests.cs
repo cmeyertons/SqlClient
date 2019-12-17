@@ -1,13 +1,13 @@
-﻿using Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
+﻿using PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted.Setup;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 using System.Diagnostics;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
 {
     public class CoreCryptoTests : IClassFixture<SQLSetupStrategyCertStoreProvider>
     {

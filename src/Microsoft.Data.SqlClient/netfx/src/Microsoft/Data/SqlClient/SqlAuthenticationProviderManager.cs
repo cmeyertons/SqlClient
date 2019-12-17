@@ -8,7 +8,7 @@ using System.Collections.Concurrent;
 using System.Linq;
 using System.Configuration;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
 

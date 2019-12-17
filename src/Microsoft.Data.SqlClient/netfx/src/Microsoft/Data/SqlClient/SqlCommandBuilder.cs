@@ -8,10 +8,10 @@ using System.Data;
 using System.Data.Common;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using Microsoft.Data.Common;
-using Microsoft.Data.Sql;
+using PwC.Data.Common;
+using PwC.Data.Sql;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='../../../../../../../doc/snippets/Microsoft.Data.SqlClient/SqlCommandBuilder.xml' path='docs/members[@name="SqlCommandBuilder"]/SqlCommandBuilder/*'/>
     public sealed class SqlCommandBuilder : DbCommandBuilder

@@ -9,11 +9,11 @@ using System.Data.Common;
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.Versioning;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     sealed internal class SqlConnectionFactory : DbConnectionFactory
     {
@@ -371,7 +371,7 @@ namespace Microsoft.Data.SqlClient
     sealed internal class SqlPerformanceCounters : DbConnectionPoolCounters
     {
         private const string CategoryName = ".NET Data Provider for SqlServer";
-        private const string CategoryHelp = "Counters for Microsoft.Data.SqlClient";
+        private const string CategoryHelp = "Counters for PwC.Data.SqlClient";
 
         public static readonly SqlPerformanceCounters SingletonInstance = new SqlPerformanceCounters();
 

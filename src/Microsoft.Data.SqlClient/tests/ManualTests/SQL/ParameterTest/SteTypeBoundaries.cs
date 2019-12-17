@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public abstract class SteTypeBoundaries : StePermutationGenerator
     {

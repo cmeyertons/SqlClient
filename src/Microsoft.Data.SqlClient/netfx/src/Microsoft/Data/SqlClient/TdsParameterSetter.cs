@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // Simple Getter/Setter for structured parameters to allow using common ValueUtilsSmi code.
     //  This is a stand-in to having a true SmiRequestExecutor class for TDS.

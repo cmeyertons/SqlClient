@@ -13,11 +13,11 @@ using System.Globalization;
 using System.IO;
 using System.Reflection;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.Common;
+using PwC.Data.SqlClient.Server;
 
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     internal abstract class DataFeed
@@ -56,7 +56,7 @@ namespace Microsoft.Data.SqlClient
 
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlParameter.xml' path='docs/members[@name="SqlParameter"]/SqlParameter/*' />
     [
-    System.ComponentModel.TypeConverterAttribute(typeof(Microsoft.Data.SqlClient.SqlParameter.SqlParameterConverter))
+    System.ComponentModel.TypeConverterAttribute(typeof(PwC.Data.SqlClient.SqlParameter.SqlParameterConverter))
     ]
     public sealed partial class SqlParameter : DbParameter, IDbDataParameter, ICloneable
     {

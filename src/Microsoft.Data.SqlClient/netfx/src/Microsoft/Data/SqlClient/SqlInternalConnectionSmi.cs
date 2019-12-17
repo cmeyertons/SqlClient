@@ -6,11 +6,11 @@ using System;
 using System.Data;
 using System.Data.Common;
 using System.Diagnostics;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.Common;
+using PwC.Data.SqlClient.Server;
 using SysTx = System.Transactions;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     sealed internal class SqlInternalConnectionSmi : SqlInternalConnection

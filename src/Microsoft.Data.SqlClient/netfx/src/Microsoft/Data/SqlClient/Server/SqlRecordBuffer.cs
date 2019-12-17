@@ -7,9 +7,9 @@ using System.Data;
 using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     internal sealed class SqlRecordBuffer
     {

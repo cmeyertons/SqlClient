@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
 
     /*
@@ -966,7 +966,7 @@ namespace Microsoft.Data.Common
         internal const bool OmitOracleConnectionName = false;
 
         // SqlClient
-        internal const ApplicationIntent ApplicationIntent = Microsoft.Data.SqlClient.ApplicationIntent.ReadWrite;
+        internal const ApplicationIntent ApplicationIntent = PwC.Data.SqlClient.ApplicationIntent.ReadWrite;
         internal const string ApplicationName = "Framework Microsoft SqlClient Data Provider";
         internal const bool AsynchronousProcessing = false;
         internal const string AttachDBFilename = "";

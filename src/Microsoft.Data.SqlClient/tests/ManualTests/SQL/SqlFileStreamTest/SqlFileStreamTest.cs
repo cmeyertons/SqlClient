@@ -5,10 +5,10 @@
 using System;
 using System.Data;
 using System.IO;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.SqlTypes;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class SqlFileStreamTest
     {

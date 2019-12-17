@@ -7,7 +7,7 @@ using System.Collections.ObjectModel;
 using System.Data;
 using System.Linq;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     /// <summary>
     /// Defines a collection of types to be used by the test. Tests can start with CreateSql2005Collection or 

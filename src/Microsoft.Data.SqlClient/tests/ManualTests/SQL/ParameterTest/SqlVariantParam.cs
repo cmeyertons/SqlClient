@@ -5,9 +5,9 @@
 using System;
 using System.Data;
 using System.Data.SqlTypes;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public static class SqlVariantParam
     {

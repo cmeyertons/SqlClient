@@ -4,7 +4,7 @@
 
 using System.Diagnostics;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
 
     // Formal encoding of SMI's metadata-to-ITypedSetter/-from-ITypedGetter validity rules

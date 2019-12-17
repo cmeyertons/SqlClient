@@ -7,9 +7,9 @@ using System.Data.Common;
 using System.Data.Sql;
 using System.Security;
 using System.Security.Permissions;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='../../../../../../../doc/snippets/Microsoft.Data.SqlClient/SqlClientFactory.xml' path='docs/members[@name="SqlClientFactory"]/SqlClientFactory/*'/>
     public sealed class SqlClientFactory : DbProviderFactory, IServiceProvider

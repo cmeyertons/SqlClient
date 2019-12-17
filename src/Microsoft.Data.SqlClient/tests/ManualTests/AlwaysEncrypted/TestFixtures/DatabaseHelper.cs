@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
 {
     class DatabaseHelper
     {

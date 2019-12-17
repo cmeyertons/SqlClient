@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
 
     // SmiMetaDataProperty defines an extended, optional property to be used on the SmiMetaData class
@@ -95,7 +95,7 @@ namespace Microsoft.Data.SqlClient.Server
         {
             if (IsReadOnly)
             {
-                throw Microsoft.Data.Common.ADP.InternalError(Microsoft.Data.Common.ADP.InternalErrorCode.InvalidSmiCall);
+                throw PwC.Data.Common.ADP.InternalError(PwC.Data.Common.ADP.InternalErrorCode.InvalidSmiCall);
             }
         }
     }
@@ -230,7 +230,7 @@ namespace Microsoft.Data.SqlClient.Server
                     delimit = true;
                 }
 
-                if (Microsoft.Data.SqlClient.SortOrder.Unspecified != columnOrd.Order)
+                if (PwC.Data.SqlClient.SortOrder.Unspecified != columnOrd.Order)
                 {
                     returnValue += columnOrd.TraceString();
                 }

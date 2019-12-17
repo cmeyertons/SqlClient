@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.SqlTypes;
 using System.Security.Principal;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
 
     // NOTE: connection, transaction and context pipe operations could be 
@@ -69,7 +69,7 @@ namespace Microsoft.Data.SqlClient.Server
             // Implement body with throw because there are only a couple of ways to get to this code:
             //  1) Client is calling this method even though the server negotiated for V2- and hasn't implemented V3 yet.
             //  2) Server didn't implement V3, but negotiated V3+.
-            Microsoft.Data.Common.ADP.InternalError(Microsoft.Data.Common.ADP.InternalErrorCode.UnimplementedSMIMethod);
+            PwC.Data.Common.ADP.InternalError(PwC.Data.Common.ADP.InternalErrorCode.UnimplementedSMIMethod);
             return null;
         }
     }

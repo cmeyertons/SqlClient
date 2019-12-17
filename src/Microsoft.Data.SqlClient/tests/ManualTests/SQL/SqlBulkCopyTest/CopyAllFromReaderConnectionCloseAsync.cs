@@ -7,7 +7,7 @@ using System.Data.Common;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class CopyAllFromReaderConnectionClosedAsync
     {

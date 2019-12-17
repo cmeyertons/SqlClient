@@ -2,7 +2,7 @@ using System;
 using System.Data;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
+namespace PwC.Data.SqlClient.ManualTesting.Tests.AlwaysEncrypted
 {
     public class ExceptionsGenericErrors : IClassFixture<ExceptionGenericErrorFixture>
     {

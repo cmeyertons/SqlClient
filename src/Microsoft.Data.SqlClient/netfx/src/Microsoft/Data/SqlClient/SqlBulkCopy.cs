@@ -14,7 +14,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
 // todo list:
 // * An ID column need to be ignored - even if there is an association
@@ -22,7 +22,7 @@ using Microsoft.Data.Common;
 // * Spec: How do we publish CommandTimeout on the bcpoperation?
 //
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // -------------------------------------------------------------------------------------------------
     // this internal class helps us to associate the metadata (from the target)
@@ -2534,7 +2534,7 @@ namespace Microsoft.Data.SqlClient
                             }
                             else
                             {
-                                exception = Microsoft.Data.OperationAbortedException.Aborted(e);
+                                exception = PwC.Data.OperationAbortedException.Aborted(e);
                             }
                         }
                         finally
@@ -2554,7 +2554,7 @@ namespace Microsoft.Data.SqlClient
             }
             if (exception == null && abortOperation)
             {
-                exception = Microsoft.Data.OperationAbortedException.Aborted(null);
+                exception = PwC.Data.OperationAbortedException.Aborted(null);
             }
             if (_connection.State != ConnectionState.Open)
             {

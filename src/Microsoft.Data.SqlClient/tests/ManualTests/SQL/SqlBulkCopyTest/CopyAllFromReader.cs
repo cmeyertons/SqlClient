@@ -7,7 +7,7 @@ using System.Data.Common;
 using System.Diagnostics;
 using Xunit;
 
-namespace Microsoft.Data.SqlClient.ManualTesting.Tests
+namespace PwC.Data.SqlClient.ManualTesting.Tests
 {
     public class CopyAllFromReader
     {
