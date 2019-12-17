@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.Common;
+using PwC.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     sealed internal class SqlStream : Stream
     {

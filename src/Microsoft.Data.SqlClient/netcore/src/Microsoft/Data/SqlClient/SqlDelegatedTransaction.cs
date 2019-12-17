@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Transactions;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     sealed internal partial class SqlDelegatedTransaction : IPromotableSinglePhaseNotification
     {

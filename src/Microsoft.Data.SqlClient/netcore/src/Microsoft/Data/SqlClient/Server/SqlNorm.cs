@@ -10,7 +10,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // The class that holds the offset, field, and normalizer for
     // a particular field.

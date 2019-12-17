@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Threading;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed partial class SqlConnectionString : DbConnectionOptions
     {

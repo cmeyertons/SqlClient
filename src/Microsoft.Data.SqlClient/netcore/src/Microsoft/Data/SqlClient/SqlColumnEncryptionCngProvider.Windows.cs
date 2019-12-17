@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlColumnEncryptionCngProvider.xml' path='docs/members[@name="SqlColumnEncryptionCngProvider"]/SqlColumnEncryptionCngProvider/*' />
     public class SqlColumnEncryptionCngProvider : SqlColumnEncryptionKeyStoreProvider

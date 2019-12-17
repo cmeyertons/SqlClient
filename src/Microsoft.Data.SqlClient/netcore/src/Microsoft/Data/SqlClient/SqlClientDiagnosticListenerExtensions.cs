@@ -7,7 +7,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <summary>
     /// Extension methods on the DiagnosticListener class to log SqlCommand data
@@ -16,7 +16,7 @@ namespace Microsoft.Data.SqlClient
     {
         public const string DiagnosticListenerName = "SqlClientDiagnosticListener";
 
-        private const string SqlClientPrefix = "Microsoft.Data.SqlClient.";
+        private const string SqlClientPrefix = "PwC.Data.SqlClient.";
 
         public const string SqlBeforeExecuteCommand = SqlClientPrefix + nameof(WriteCommandBefore);
         public const string SqlAfterExecuteCommand = SqlClientPrefix + nameof(WriteCommandAfter);

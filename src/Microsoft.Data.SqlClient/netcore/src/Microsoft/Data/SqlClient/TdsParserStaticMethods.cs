@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed class TdsParserStaticMethods
     {

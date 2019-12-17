@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.SNI
+namespace PwC.Data.SqlClient.SNI
 {
     internal class TdsParserStateObjectManaged : TdsParserStateObject
     {

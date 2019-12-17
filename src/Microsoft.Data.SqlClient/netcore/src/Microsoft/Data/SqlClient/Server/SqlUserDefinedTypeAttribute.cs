@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     /// <include file='..\..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient.Server\Format.xml' path='docs/members[@name="Format"]/Format/*' />
     public enum Format

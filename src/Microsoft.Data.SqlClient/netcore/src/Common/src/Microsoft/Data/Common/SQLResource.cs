@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.SqlTypes
+namespace PwC.Data.SqlTypes
 {
     internal static class SQLResource
     {

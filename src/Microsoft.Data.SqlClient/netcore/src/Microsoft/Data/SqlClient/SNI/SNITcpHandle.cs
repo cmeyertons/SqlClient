@@ -15,7 +15,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.Data.SqlClient.SNI
+namespace PwC.Data.SqlClient.SNI
 {
     /// <summary>
     /// TCP connection handle

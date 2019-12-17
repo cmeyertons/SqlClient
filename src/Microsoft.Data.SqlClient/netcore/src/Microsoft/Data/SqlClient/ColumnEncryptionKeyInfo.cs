@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     /// <summary>

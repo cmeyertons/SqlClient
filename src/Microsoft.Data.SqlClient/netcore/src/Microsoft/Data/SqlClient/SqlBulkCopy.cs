@@ -13,9 +13,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using Microsoft.Data.Common;
+using PwC.Data;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // This internal class helps us to associate the metadata from the target
     // with the ColumnOrdinals from the source.

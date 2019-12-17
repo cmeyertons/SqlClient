@@ -6,9 +6,9 @@ using System;
 using System.Data;
 using System.Data.Common;
 using System.Diagnostics;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlDataAdapter.xml' path='docs/members[@name="SqlDataAdapter"]/SqlDataAdapter/*' />
     public sealed class SqlDataAdapter : DbDataAdapter, IDbDataAdapter, ICloneable

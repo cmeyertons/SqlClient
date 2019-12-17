@@ -7,7 +7,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <summary>
     /// <para> Implements a global directory of all the encryption algorithms registered with client.</para>

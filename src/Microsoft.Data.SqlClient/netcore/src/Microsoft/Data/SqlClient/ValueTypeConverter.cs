@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <summary>
     /// Converts value types from a generic to the desired, underlying type without boxing.

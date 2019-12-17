@@ -10,7 +10,7 @@ using System.Net.Security;
 using System.Security.Authentication;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Microsoft.Data.SqlClient.SNI
+namespace PwC.Data.SqlClient.SNI
 {
     /// <summary>
     /// Named Pipe connection handle

@@ -63,7 +63,7 @@ using System.Threading;
 // In this case thread 1 don't have to wait for event as it’s already did it while running 1st query.
 // Now thread 2 keeps waiting either for timeout to happen or thread 1 finish up setting the session.
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // Base class for Enclave provider
 

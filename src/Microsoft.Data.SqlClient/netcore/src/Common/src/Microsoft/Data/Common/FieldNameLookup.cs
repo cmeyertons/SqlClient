@@ -5,7 +5,7 @@
 using System.Data;
 using System.Globalization;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     internal sealed class FieldNameLookup : BasicFieldNameLookup
     {

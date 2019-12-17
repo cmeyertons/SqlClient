@@ -7,10 +7,10 @@ using System.Data;
 using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.Text;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.Common;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // TdsValueSetter handles writing a single value out to a TDS stream
     //   This class can easily be extended to handle multiple versions of TDS by sub-classing and virtualizing

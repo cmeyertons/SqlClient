@@ -5,7 +5,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
     /// <include file='..\..\..\..\..\..\doc\snippets\Microsoft.Data\OperationAbortedException.xml' path='docs/members[@name="OperationAbortedException"]/OperationAbortedException/*' />
     [Serializable]

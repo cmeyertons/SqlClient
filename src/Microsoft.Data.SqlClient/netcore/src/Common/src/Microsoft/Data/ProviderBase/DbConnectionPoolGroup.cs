@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 using System.Collections.Concurrent;
 using System.Data.Common;
 using System.Diagnostics;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     // set_ConnectionString calls DbConnectionFactory.GetConnectionPoolGroup
     // when not found a new pool entry is created and potentially added

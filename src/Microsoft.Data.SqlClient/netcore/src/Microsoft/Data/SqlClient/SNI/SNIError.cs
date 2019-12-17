@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.SqlClient.SNI
+namespace PwC.Data.SqlClient.SNI
 {
     /// <summary>
     /// SNI error

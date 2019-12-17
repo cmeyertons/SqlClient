@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
     // These functions are major point of localization.
     // We need to have a rules to enforce consistency there.

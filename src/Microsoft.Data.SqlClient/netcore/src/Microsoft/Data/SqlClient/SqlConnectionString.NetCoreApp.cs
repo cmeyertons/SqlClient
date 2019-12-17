@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed partial class SqlConnectionString : DbConnectionOptions
     {
@@ -18,7 +18,7 @@ namespace Microsoft.Data.SqlClient
 
         internal PoolBlockingPeriod PoolBlockingPeriod { get { return _poolBlockingPeriod; } }
 
-        internal Microsoft.Data.SqlClient.PoolBlockingPeriod ConvertValueToPoolBlockingPeriod()
+        internal PwC.Data.SqlClient.PoolBlockingPeriod ConvertValueToPoolBlockingPeriod()
         {
             string value;
             if (!TryGetParsetableValue(KEY.PoolBlockingPeriod, out value))

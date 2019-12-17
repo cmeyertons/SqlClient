@@ -10,7 +10,7 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     internal static class SqlSecurityUtility

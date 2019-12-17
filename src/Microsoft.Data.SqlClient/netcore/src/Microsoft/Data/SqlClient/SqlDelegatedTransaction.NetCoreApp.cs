@@ -5,7 +5,7 @@
 using System;
 using System.Transactions;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     sealed internal partial class SqlDelegatedTransaction : IPromotableSinglePhaseNotification
     {

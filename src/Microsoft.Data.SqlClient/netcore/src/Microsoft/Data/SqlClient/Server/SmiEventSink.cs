@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // SqlEventSink is implemented by calling code.  In all methods that accept
     // a SqlEventSink directly the sink must be able to handle multiple callbacks 

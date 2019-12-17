@@ -6,7 +6,7 @@ using System.Security;
 using System.Threading.Tasks;
 using Microsoft.Identity.Client;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     /// <summary>

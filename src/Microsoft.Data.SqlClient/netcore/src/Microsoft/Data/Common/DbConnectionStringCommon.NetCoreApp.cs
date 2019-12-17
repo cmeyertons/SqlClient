@@ -4,9 +4,9 @@
 
 using System;
 using System.Diagnostics;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     internal static partial class DbConnectionStringBuilderUtil
     {
@@ -142,6 +142,6 @@ namespace Microsoft.Data.Common
 
     internal static partial class DbConnectionStringDefaults
     {
-        internal const PoolBlockingPeriod PoolBlockingPeriod = Microsoft.Data.SqlClient.PoolBlockingPeriod.Auto;
+        internal const PoolBlockingPeriod PoolBlockingPeriod = PwC.Data.SqlClient.PoolBlockingPeriod.Auto;
     }
 }

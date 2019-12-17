@@ -9,10 +9,10 @@ using System.Globalization;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Security.Permissions;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 using Microsoft.Win32.SafeHandles;
 
-namespace Microsoft.Data.SqlTypes
+namespace PwC.Data.SqlTypes
 {
     /// <include file='../../../../../../../doc/snippets/Microsoft.Data.SqlTypes/SqlFileStream.xml' path='docs/members[@name="SqlFileStream"]/SqlFileStream/*' />
     public sealed partial class SqlFileStream : System.IO.Stream

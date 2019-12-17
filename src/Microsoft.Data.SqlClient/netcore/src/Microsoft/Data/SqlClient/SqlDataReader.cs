@@ -16,13 +16,13 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
-using Microsoft.Data.SqlClient.DataClassification;
-using Microsoft.Data.SqlClient.Server;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
+using PwC.Data.SqlClient.DataClassification;
+using PwC.Data.SqlClient.Server;
+using PwC.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlDataReader.xml' path='docs/members[@name="SqlDataReader"]/SqlDataReader/*' />
     public class SqlDataReader : DbDataReader, IDataReader, IDbColumnSchemaGenerator

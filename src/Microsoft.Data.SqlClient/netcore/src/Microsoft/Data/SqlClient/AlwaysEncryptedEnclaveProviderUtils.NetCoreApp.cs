@@ -5,7 +5,7 @@
 using System;
 using System.Linq;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal class EnclavePublicKey
     {

@@ -4,9 +4,9 @@
 
 using System;
 using System.Diagnostics;
-using Microsoft.Data.SqlClient.SNI;
+using PwC.Data.SqlClient.SNI;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed partial class TdsParser
     {

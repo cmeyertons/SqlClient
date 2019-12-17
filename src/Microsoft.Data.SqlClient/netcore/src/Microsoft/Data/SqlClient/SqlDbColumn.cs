@@ -6,7 +6,7 @@ using System;
 using System.Data;
 using System.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal class SqlDbColumn : DbColumn
     {

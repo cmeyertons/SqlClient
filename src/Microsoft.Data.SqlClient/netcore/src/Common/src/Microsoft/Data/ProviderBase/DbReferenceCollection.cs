@@ -7,7 +7,7 @@ using System;
 using System.Diagnostics;
 using System.Threading;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     internal abstract class DbReferenceCollection
     {

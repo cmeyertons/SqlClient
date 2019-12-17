@@ -5,7 +5,7 @@
 using System;
 using System.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // interface for strongly-typed value setters
     internal interface ITypedSetters

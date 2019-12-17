@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal abstract class VirtualizationBasedSecurityEnclaveProviderBase : EnclaveProviderBase
     {

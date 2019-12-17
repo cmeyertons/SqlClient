@@ -9,11 +9,11 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Xml;
 
-namespace Microsoft.Data.SqlTypes
+namespace PwC.Data.SqlTypes
 {
     /// <summary>
     /// This type provides workarounds for the separation between System.Data.Common
-    /// and Microsoft.Data.SqlClient.  The latter wants to access internal members of the former, and
+    /// and PwC.Data.SqlClient.  The latter wants to access internal members of the former, and
     /// this class provides ways to do that.  We must review and update this implementation any time the
     /// implementation of the corresponding types in System.Data.Common change.
     /// </summary>

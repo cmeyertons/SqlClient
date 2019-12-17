@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
 using System.Threading;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     /// <summary>
     /// Represents the context of an authentication attempt when using the new active directory based authentication mechanisms.

@@ -5,9 +5,9 @@
 using System;
 using System.Data;
 using System.Data.SqlTypes;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // Class for implementing a record object that could take advantage of the
     // environment available to a particular protocol level (such as storing data 

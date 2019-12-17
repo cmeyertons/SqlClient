@@ -7,9 +7,9 @@ using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.InteropServices;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed partial class SqlBuffer
     {

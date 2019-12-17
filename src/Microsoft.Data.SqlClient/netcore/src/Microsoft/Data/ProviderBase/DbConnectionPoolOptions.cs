@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     internal sealed class DbConnectionPoolGroupOptions
     {

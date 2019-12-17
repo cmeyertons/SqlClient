@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <AssemblyName>Microsoft.Data.SqlClient</AssemblyName>
+    <AssemblyName>PwC.Data.SqlClient</AssemblyName>
     <TargetFrameworks>netcoreapp2.1;netstandard2.0</TargetFrameworks>
     <LangVersion>7.2</LangVersion>
     <GeneratePlatformNotSupportedAssemblyMessage Condition="'$(OSGroup)' == 'AnyOS'">SR.PlatformNotSupported_DataSqlClient</GeneratePlatformNotSupportedAssemblyMessage>
@@ -589,7 +589,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Microsoft.Data.SqlClient.SqlMetaData.xml">
+    <EmbeddedResource Include="Resources\PwC.Data.SqlClient.SqlMetaData.xml">
       <LogicalName>Microsoft.Data.SqlClient.SqlMetaData.xml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>

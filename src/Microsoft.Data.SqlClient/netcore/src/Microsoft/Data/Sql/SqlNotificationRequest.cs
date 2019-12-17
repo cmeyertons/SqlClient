@@ -2,10 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlClient;
+using PwC.Data.Common;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.Sql
+namespace PwC.Data.Sql
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.Sql\SqlNotificationRequest.xml' path='docs/members[@name="SqlNotificationRequest"]/SqlNotificationRequest/*' />
     public sealed class SqlNotificationRequest

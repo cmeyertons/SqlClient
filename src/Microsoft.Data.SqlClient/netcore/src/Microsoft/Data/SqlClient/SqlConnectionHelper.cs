@@ -8,11 +8,11 @@ using System.Data.Common;
 using System.Diagnostics;
 using System.Threading;
 using System.Transactions;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
 
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     public sealed partial class SqlConnection : DbConnection
     {

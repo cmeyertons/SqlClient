@@ -4,9 +4,9 @@
 
 using System.Collections.Generic;
 using System.Diagnostics;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // SmiMetaDataProperty defines an extended, optional property to be used on the SmiMetaData class
     //  This approach to adding properties is added combat the growing number of sparsely-used properties 

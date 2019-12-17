@@ -15,7 +15,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     internal static partial class ADP
     {

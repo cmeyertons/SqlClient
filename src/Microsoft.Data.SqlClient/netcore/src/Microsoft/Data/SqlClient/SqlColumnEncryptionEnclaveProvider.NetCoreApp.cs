@@ -4,7 +4,7 @@
 
 using System.Security.Cryptography;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <summary>
     /// The base class that defines the interface for enclave providers for Always Encrypted. An enclave is a protected region of memory inside SQL Server, used for computations on encrypted columns. An enclave provider encapsulates the client-side implementation details of the enclave attestation protocol as well as the logic for creating and caching enclave sessions.

@@ -7,7 +7,7 @@ using System.Buffers;
 using System.Diagnostics;
 using System.IO;
 
-namespace Microsoft.Data.SqlClient.SNI
+namespace PwC.Data.SqlClient.SNI
 {
     /// <summary>
     /// SNI Packet

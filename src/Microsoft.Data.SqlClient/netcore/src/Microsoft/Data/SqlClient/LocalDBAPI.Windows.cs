@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
     internal static partial class LocalDBAPI
     {

@@ -4,7 +4,7 @@
 
 using System.Text;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     internal class MultipartIdentifier
     {

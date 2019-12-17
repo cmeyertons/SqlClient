@@ -6,7 +6,7 @@ using System;
 using System.Data;
 using System.Diagnostics;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <devdoc> Class of variables for the Tds connection.
     /// </devdoc>
@@ -15,7 +15,7 @@ namespace Microsoft.Data.SqlClient
         // internal tdsparser constants
 
 
-        public const string SQL_PROVIDER_NAME = Common.DbConnectionStringDefaults.ApplicationName;
+        public const string SQL_PROVIDER_NAME = PwC.Data.Common.DbConnectionStringDefaults.ApplicationName;
 
         public static readonly decimal SQL_SMALL_MONEY_MIN = new decimal(-214748.3648);
         public static readonly decimal SQL_SMALL_MONEY_MAX = new decimal(214748.3647);

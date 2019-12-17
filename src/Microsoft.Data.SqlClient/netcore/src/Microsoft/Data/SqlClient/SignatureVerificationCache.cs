@@ -7,7 +7,7 @@ using System.Runtime.Caching;
 using System.Text;
 using System.Threading;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <summary>
     /// Cache for storing result of signature verfication of CMK Metadata

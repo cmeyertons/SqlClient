@@ -7,10 +7,10 @@ using System.Data;
 using System.Data.Common;
 using System.IO;
 using System.Text;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed class SqlMetaDataFactory : DbMetaDataFactory
     {

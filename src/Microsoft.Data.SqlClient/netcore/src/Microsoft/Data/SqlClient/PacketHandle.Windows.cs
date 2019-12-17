@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // this structure is used for transporting packet handle references between the TdsParserStateObject
     //  base class and Managed or Native implementations. 

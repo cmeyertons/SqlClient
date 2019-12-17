@@ -13,10 +13,10 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Security;
 using System.Text;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.Common;
+using PwC.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal enum CallbackType
     {

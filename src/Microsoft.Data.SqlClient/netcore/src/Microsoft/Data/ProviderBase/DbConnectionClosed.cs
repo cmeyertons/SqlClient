@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Transactions;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     internal abstract partial class DbConnectionClosed : DbConnectionInternal
     {

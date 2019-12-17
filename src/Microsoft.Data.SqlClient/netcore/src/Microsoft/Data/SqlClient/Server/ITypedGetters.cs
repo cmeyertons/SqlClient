@@ -6,7 +6,7 @@ using System;
 using System.Data;
 using System.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // Interface for strongly-typed value getters
     internal interface ITypedGetters

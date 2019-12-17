@@ -15,11 +15,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
 using Microsoft.Identity.Client;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal class SessionStateRecord
     {
@@ -147,7 +147,7 @@ namespace Microsoft.Data.SqlClient
         // This is a test hook to enable testing of the retry paths for MSAL get access token.
         // Sample code to enable:
         //
-        //    Type type = typeof(SqlConnection).Assembly.GetType("Microsoft.Data.SqlClient.SQLInternalConnectionTds");
+        //    Type type = typeof(SqlConnection).Assembly.GetType("PwC.Data.SqlClient.SQLInternalConnectionTds");
         //    System.Reflection.FieldInfo field = type.GetField("_forceMsalRetry", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
         //    if (field != null) {
         //        field.SetValue(null, true);

@@ -6,7 +6,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
     internal static partial class LocalDBAPI
     {

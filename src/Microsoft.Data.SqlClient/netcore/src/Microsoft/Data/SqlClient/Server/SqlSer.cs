@@ -7,9 +7,9 @@ using System.Collections;
 using System.IO;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     internal class SerializationHelperSql9
     {
@@ -88,10 +88,10 @@ namespace Microsoft.Data.SqlClient.Server
         {
             object[] attrs = t.GetCustomAttributes(typeof(SqlUserDefinedTypeAttribute), false);
 
-            // If we don't find a Microsoft.Data.SqlClient.Server.SqlUserDefinedTypeAttribute,
+            // If we don't find a PwC.Data.SqlClient.Server.SqlUserDefinedTypeAttribute,
             // search for a Microsoft.SqlServer.Server.SqlUserDefinedTypeAttribute from the
             // old System.Data.SqlClient assembly and copy it to our
-            // Microsoft.Data.SqlClient.Server.SqlUserDefinedTypeAttribute for reference.
+            // PwC.Data.SqlClient.Server.SqlUserDefinedTypeAttribute for reference.
             if (attrs == null || attrs.Length == 0)
             {
                 object[] attr = t.GetCustomAttributes(false);

@@ -5,7 +5,7 @@
 using System;
 using System.Globalization;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     /// <summary>
     /// This class defines the data structure for ActivityId used for correlated tracing between client (bid trace event) and server (XEvent).

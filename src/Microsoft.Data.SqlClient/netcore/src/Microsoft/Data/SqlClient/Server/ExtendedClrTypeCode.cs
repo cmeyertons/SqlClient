@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     internal enum ExtendedClrTypeCode
     {
@@ -46,7 +46,7 @@ namespace Microsoft.Data.SqlClient.Server
         SqlXml,                     // System.Data.SqlTypes.SqlXml
         DataTable,                  // System.Data.DataTable
         DbDataReader,               // System.Data.DbDataReader (SqlDataReader falls under this category)
-        IEnumerableOfSqlDataRecord, // System.Collections.Generic.IEnumerable<Microsoft.Data.SqlClient.Server.SqlDataRecord>
+        IEnumerableOfSqlDataRecord, // System.Collections.Generic.IEnumerable<PwC.Data.SqlClient.Server.SqlDataRecord>
         TimeSpan,                   // System.TimeSpan
         DateTimeOffset,             // System.DateTimeOffset
         Stream,                     // System.IO.Stream

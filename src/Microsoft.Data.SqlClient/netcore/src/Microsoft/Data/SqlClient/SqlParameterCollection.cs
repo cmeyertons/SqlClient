@@ -6,7 +6,7 @@ using System;
 using System.Data;
 using System.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlParameterCollection.xml' path='docs/members[@name="SqlParameterCollection"]/SqlParameterCollection/*' />
     public sealed partial class SqlParameterCollection : DbParameterCollection

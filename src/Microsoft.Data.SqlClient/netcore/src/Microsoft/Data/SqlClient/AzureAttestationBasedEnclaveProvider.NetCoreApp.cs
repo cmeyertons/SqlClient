@@ -43,7 +43,7 @@ using Microsoft.IdentityModel.Tokens;
 // JWT for SGX enclave does not contain nonce claim. To workaround this limitation Sql Server sends the RSA public key XOR with the Nonce.
 // In Sql server tempered with the nonce value then both Sql Server and client will not able to compute the same shared secret.
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // Implementation of an Enclave provider (both for Sgx and Vsm) with Azure Attestation
     internal class AzureAttestationEnclaveProvider : EnclaveProviderBase

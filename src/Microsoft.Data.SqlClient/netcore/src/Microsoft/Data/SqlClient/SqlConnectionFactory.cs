@@ -6,10 +6,10 @@ using System;
 using System.Data.Common;
 using System.Diagnostics;
 using System.IO;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     sealed internal class SqlConnectionFactory : DbConnectionFactory
     {
@@ -273,7 +273,7 @@ namespace Microsoft.Data.SqlClient
         {
             Debug.Assert(internalConnection != null, "internalConnection may not be null.");
 
-            Stream xmlStream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("Microsoft.Data.SqlClient.SqlMetaData.xml");
+            Stream xmlStream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("PwC.Data.SqlClient.SqlMetaData.xml");
             cacheMetaDataFactory = true;
 
             Debug.Assert(xmlStream != null, nameof(xmlStream) + " may not be null.");

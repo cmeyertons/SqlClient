@@ -14,13 +14,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.Sql;
-using Microsoft.Data.SqlClient.DataClassification;
-using Microsoft.Data.SqlClient.Server;
-using Microsoft.Data.SqlTypes;
+using PwC.Data.Common;
+using PwC.Data.Sql;
+using PwC.Data.SqlClient.DataClassification;
+using PwC.Data.SqlClient.Server;
+using PwC.Data.SqlTypes;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     internal struct SNIErrorDetails

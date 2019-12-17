@@ -4,7 +4,7 @@
 
 using System.Text;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed partial class TdsParser
     {

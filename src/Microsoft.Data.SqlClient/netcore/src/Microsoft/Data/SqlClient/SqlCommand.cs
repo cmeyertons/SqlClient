@@ -16,11 +16,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using Microsoft.Data.Common;
-using Microsoft.Data.Sql;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.Common;
+using PwC.Data.Sql;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='../../../../../../../doc/snippets/Microsoft.Data.SqlClient/SqlCommand.xml' path='docs/members[@name="SqlCommand"]/SqlCommand/*'/>
     public sealed partial class SqlCommand : DbCommand, ICloneable
@@ -5972,7 +5972,7 @@ namespace Microsoft.Data.SqlClient
         object ICloneable.Clone() => Clone();
 
 
-        /// <include file='../../../../../../../doc/snippets/Microsoft.Data.Sqlclient/SqlCommand.xml' path='docs/members[@name="SqlCommand"]/Clone/*'/>
+        /// <include file='../../../../../../../doc/snippets/Microsoft.Data.SqlClient/SqlCommand.xml' path='docs/members[@name="SqlCommand"]/Clone/*'/>
         public SqlCommand Clone() => new SqlCommand(this);
     }
 }

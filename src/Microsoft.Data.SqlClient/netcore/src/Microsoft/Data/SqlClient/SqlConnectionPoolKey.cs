@@ -4,9 +4,9 @@
 
 using System;
 using System.Diagnostics;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // SqlConnectionPoolKey: Implementation of a key to connection pool groups for specifically to be used for SqlConnection
     //  Connection string and SqlCredential are used as a key

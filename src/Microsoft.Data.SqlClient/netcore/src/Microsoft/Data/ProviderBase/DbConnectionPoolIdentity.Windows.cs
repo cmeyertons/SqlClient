@@ -4,9 +4,9 @@
 
 using System;
 using System.Security.Principal;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     partial class DbConnectionPoolIdentity
     {

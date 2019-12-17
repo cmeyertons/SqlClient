@@ -5,7 +5,7 @@
 using System.Collections;
 using System.Diagnostics;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='../../../../../../../doc/snippets/Microsoft.Data.SqlClient/SqlBulkCopyColumnMappingCollection.xml' path='docs/members[@name="SqlBulkCopyColumnMappingCollection"]/SqlBulkCopyColumnMappingCollection/*'/>
     public sealed class SqlBulkCopyColumnMappingCollection : CollectionBase

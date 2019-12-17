@@ -4,7 +4,7 @@
 
 using System.Threading;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     internal static partial class ADP
     {

@@ -9,9 +9,9 @@ using System.Data.Common;
 using System.Diagnostics;
 using System.Text;
 using System.Text.RegularExpressions;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed class SqlCommandSet
     {

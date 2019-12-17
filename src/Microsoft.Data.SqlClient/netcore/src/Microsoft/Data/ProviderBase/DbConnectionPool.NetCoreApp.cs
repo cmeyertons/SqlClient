@@ -4,10 +4,10 @@
 
 using System;
 using System.Diagnostics;
-using Microsoft.Data.Common;
-using Microsoft.Data.SqlClient;
+using PwC.Data.Common;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     sealed internal partial class DbConnectionPool
     {

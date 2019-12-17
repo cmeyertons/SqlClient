@@ -11,7 +11,7 @@ using System.Net.Security;
 using System.Net.Sockets;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient.SNI
+namespace PwC.Data.SqlClient.SNI
 {
     /// <summary>
     /// Managed SNI proxy implementation. Contains many SNI entry points used by SqlClient.

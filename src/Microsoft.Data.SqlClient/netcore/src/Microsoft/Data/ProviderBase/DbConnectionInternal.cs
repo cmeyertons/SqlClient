@@ -7,9 +7,9 @@ using System.Data.Common;
 using System.Diagnostics;
 using System.Threading;
 using System.Transactions;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     internal abstract partial class DbConnectionInternal
     {

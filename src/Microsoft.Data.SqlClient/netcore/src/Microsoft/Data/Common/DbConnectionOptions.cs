@@ -8,7 +8,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     internal partial class DbConnectionOptions
     {

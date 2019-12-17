@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Globalization;
 using System.Reflection;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     internal static partial class DbConnectionStringBuilderUtil
     {
@@ -614,7 +614,7 @@ namespace Microsoft.Data.Common
         // internal const string NamedConnection = "";
 
         // SqlClient
-        internal const ApplicationIntent ApplicationIntent = Microsoft.Data.SqlClient.ApplicationIntent.ReadWrite;
+        internal const ApplicationIntent ApplicationIntent = PwC.Data.SqlClient.ApplicationIntent.ReadWrite;
         internal const string ApplicationName = "Core Microsoft SqlClient Data Provider";
         internal const string AttachDBFilename = "";
         internal const int ConnectTimeout = 15;

@@ -18,11 +18,11 @@ using System.Reflection;
 using System.Security;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Data.Common;
-using Microsoft.Data.ProviderBase;
-using Microsoft.Data.SqlClient.Server;
+using PwC.Data.Common;
+using PwC.Data.ProviderBase;
+using PwC.Data.SqlClient.Server;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     /// <include file='..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient\SqlConnection.xml' path='docs/members[@name="SqlConnection"]/SqlConnection/*' />
     public sealed partial class SqlConnection : DbConnection, ICloneable

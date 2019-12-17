@@ -9,9 +9,9 @@ using System.Data.Common;
 using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.Globalization;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // Utilities for manipulating smi-related metadata.
     //
@@ -69,7 +69,7 @@ namespace Microsoft.Data.SqlClient.Server
             SqlDbType.Xml,                  // System.Data.SqlTypes.SqlXml
             SqlDbType.Structured,           // System.Data.DataTable
             SqlDbType.Structured,           // System.Collections.IEnumerable, used for TVPs it must return IDataRecord
-            SqlDbType.Structured,           // System.Collections.Generic.IEnumerable<Microsoft.Data.SqlClient.Server.SqlDataRecord>
+            SqlDbType.Structured,           // System.Collections.Generic.IEnumerable<PwC.Data.SqlClient.Server.SqlDataRecord>
             SqlDbType.Time,                 // System.TimeSpan
             SqlDbType.DateTimeOffset,       // System.DateTimeOffset
         };

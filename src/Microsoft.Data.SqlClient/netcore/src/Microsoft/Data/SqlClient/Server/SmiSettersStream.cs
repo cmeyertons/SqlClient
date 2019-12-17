@@ -4,9 +4,9 @@
 
 using System.Diagnostics;
 using System.IO;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     internal class SmiSettersStream : Stream
     {

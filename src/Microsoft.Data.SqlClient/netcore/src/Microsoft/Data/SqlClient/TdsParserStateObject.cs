@@ -11,9 +11,9 @@ using System.Security;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     sealed internal class LastIOTimer
     {
@@ -219,7 +219,7 @@ namespace Microsoft.Data.SqlClient
         //
         // Sample code to enable:
         //
-        //    Type type = typeof(SqlDataReader).Assembly.GetType("Microsoft.Data.SqlClient.TdsParserStateObject");
+        //    Type type = typeof(SqlDataReader).Assembly.GetType("PwC.Data.SqlClient.TdsParserStateObject");
         //    System.Reflection.FieldInfo field = type.GetField("_forceAllPends", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
         //    if (field != null) {
         //        field.SetValue(null, true);

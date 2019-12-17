@@ -9,7 +9,7 @@ using System.Data;
 using System.Data.SqlTypes;
 using System.Globalization;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // DESIGN NOTES
     //

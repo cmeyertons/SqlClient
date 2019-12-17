@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // these members were moved to a separate file in order
     // to be able to skip them on platforms where AppDomain members are not supported 

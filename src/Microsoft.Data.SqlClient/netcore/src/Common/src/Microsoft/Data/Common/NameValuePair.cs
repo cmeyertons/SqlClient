@@ -4,7 +4,7 @@
 
 using System.Diagnostics;
 
-namespace Microsoft.Data.Common
+namespace PwC.Data.Common
 {
     internal sealed class NameValuePair
     {

@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     internal class SmiGettersStream : Stream
     {

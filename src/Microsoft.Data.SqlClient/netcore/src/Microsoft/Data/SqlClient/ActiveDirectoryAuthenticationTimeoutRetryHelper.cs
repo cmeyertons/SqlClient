@@ -7,7 +7,7 @@ using System.ComponentModel;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
 
     /// <summary>

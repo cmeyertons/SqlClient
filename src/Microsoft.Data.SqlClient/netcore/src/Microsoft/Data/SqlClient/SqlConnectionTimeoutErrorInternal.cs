@@ -6,7 +6,7 @@ using System;
 using System.Diagnostics;
 using System.Text;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     // VSTFDevDiv# 643319 - Improve timeout error message reported when SqlConnection.Open fails
     internal enum SqlConnectionTimeoutErrorPhase

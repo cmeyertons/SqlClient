@@ -5,7 +5,7 @@
 using System.Net;
 using System.Net.Security;
 
-namespace Microsoft.Data.SqlClient.SNI
+namespace PwC.Data.SqlClient.SNI
 {
     internal class SspiClientContextStatus
     {

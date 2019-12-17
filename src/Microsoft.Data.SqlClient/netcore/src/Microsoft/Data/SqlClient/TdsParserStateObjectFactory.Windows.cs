@@ -3,14 +3,14 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Data.SqlClient.SNI;
+using PwC.Data.SqlClient.SNI;
 
-namespace Microsoft.Data.SqlClient
+namespace PwC.Data.SqlClient
 {
     internal sealed class TdsParserStateObjectFactory
     {
 
-        private const string UseLegacyNetworkingOnWindows = "Microsoft.Data.SqlClient.UseLegacyNetworkingOnWindows";
+        private const string UseLegacyNetworkingOnWindows = "PwC.Data.SqlClient.UseLegacyNetworkingOnWindows";
 
         public static readonly TdsParserStateObjectFactory Singleton = new TdsParserStateObjectFactory();
 
@@ -22,7 +22,7 @@ namespace Microsoft.Data.SqlClient
 
 #if DEBUG
         private static Lazy<bool> useManagedSNIOnWindows = new Lazy<bool>(
-            () => bool.TrueString.Equals(Environment.GetEnvironmentVariable("Microsoft.Data.SqlClient.UseManagedSNIOnWindows"), StringComparison.InvariantCultureIgnoreCase)
+            () => bool.TrueString.Equals(Environment.GetEnvironmentVariable("PwC.Data.SqlClient.UseManagedSNIOnWindows"), StringComparison.InvariantCultureIgnoreCase)
         );
         public static bool UseManagedSNI => useManagedSNIOnWindows.Value;
 #else

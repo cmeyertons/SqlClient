@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Data.Common;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 using System;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     internal abstract partial class DbConnectionFactory
     {

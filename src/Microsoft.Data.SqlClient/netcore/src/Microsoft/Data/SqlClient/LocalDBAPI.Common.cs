@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Text;
-using Microsoft.Data.SqlClient;
+using PwC.Data.SqlClient;
 
-namespace Microsoft.Data
+namespace PwC.Data
 {
     internal static partial class LocalDBAPI
     {

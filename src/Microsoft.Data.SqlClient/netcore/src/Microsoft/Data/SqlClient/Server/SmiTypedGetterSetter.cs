@@ -4,9 +4,9 @@
 
 using System;
 using System.Data.SqlTypes;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     // Central interface for getting/setting data values from/to a set of values indexed by ordinal 
     //  (record, row, array, etc)

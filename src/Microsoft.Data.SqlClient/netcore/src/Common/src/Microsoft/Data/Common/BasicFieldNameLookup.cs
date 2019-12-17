@@ -5,9 +5,9 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Globalization;
-using Microsoft.Data.Common;
+using PwC.Data.Common;
 
-namespace Microsoft.Data.ProviderBase
+namespace PwC.Data.ProviderBase
 {
     internal class BasicFieldNameLookup
     {

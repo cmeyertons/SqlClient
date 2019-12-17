@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Microsoft.Data.SqlClient.DataClassification
+namespace PwC.Data.SqlClient.DataClassification
 {
     /// <include file='..\..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient.DataClassification\Label.xml' path='docs/members[@name="Label"]/Label/*' />
     public class Label

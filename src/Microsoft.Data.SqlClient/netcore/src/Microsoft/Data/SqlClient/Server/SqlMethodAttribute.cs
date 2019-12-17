@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Data.SqlClient.Server
+namespace PwC.Data.SqlClient.Server
 {
     /// <include file='..\..\..\..\..\..\..\..\doc\snippets\Microsoft.Data.SqlClient.Server\SqlMethodAttribute.xml' path='docs/members[@name="SqlMethodAttribute"]/SqlMethodAttribute/*' />
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false), Serializable]
