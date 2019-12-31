@@ -15,7 +15,7 @@ namespace Benchmark
     {
         static void Main(string[] args)
         {
-            if (args[0] == "--direct")
+            if (args.Length > 0 && args[0] == "--direct")
             {
                 var b = new DataReaderGithubBenchmark();
 
