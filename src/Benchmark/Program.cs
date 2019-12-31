@@ -5,6 +5,7 @@ using Dapper;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 
@@ -14,6 +15,27 @@ namespace Benchmark
     {
         static void Main(string[] args)
         {
+            if (args[0] == "--direct")
+            {
+                var b = new DataReaderGithubBenchmark();
+
+                b.Setup();
+
+                for (int i = 0; i < 10; i++)
+                {
+                    var sw = Stopwatch.StartNew();
+
+                    Console.WriteLine($"Starting Batch {i}");
+                    b.NewBulkCopy_NewReader();
+
+                    sw.Stop();
+
+                    Console.WriteLine($"Finished batch {i} in {sw.ElapsedMilliseconds} ms.");
+                }
+
+                return;
+            }
+
             var config = ManualConfig.Create(DefaultConfig.Instance);
             config.Options = ConfigOptions.DisableOptimizationsValidator;
             config.Add(new ConsoleLogger());
