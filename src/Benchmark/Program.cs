@@ -26,7 +26,7 @@ namespace Benchmark
                     var sw = Stopwatch.StartNew();
 
                     Console.WriteLine($"Starting Batch {i}");
-                    b.Decimal();
+                    b.All();
 
                     sw.Stop();
 
@@ -49,12 +49,13 @@ namespace Benchmark
     public class DataReaderGithubBenchmark
     {
         private const string DB = "cmeyertons_benchmark";
-        private static readonly Random _sR;
         private static readonly IEnumerable<ItemToCopy> _items;
+        private IDataReader _allReader;
         private IDataReader _decimalReader;
         private IDataReader _stringReader;
         private IDataReader _intReader;
         private IDataReader _boolReader;
+        private static readonly string _allTable = "dbo._alltable";
         private static readonly string _decimalTable = "dbo._decimalTable";
         private static readonly string _stringTable = "dbo._stringTable";
         private static readonly string _intTable = "dbo._intTable";
@@ -64,9 +65,9 @@ namespace Benchmark
 
         private class ItemToCopy
         {
-            public decimal DecimalColumn { get; } = Convert.ToDecimal(_sR.NextDouble());
-            public string StringColumn { get; } = _sR.Next().ToString();
-            public int IntColumn { get; } = _sR.Next();
+            public decimal DecimalColumn { get; } = 123456.789m;
+            public string StringColumn { get; } = "abcdefgijk";
+            public int IntColumn { get; } = 123456;
             public bool BoolColumn { get; } = true;
         }
 
@@ -96,24 +97,29 @@ namespace Benchmark
             c.Execute($@"
                 USE {DB};
 
-                CREATE TABLE {_decimalTable} (
+                CREATE TABLE {_allTable} (
                     DecimalColumn DECIMAL NOT NULL,
+                    StringColumn NVARCHAR(50) NULL,
+                    IntColumn INT NOT NULL,
+                    BoolColumn BIT NOT NULL
+                )
+
+                CREATE TABLE {_decimalTable} (
+                    DecimalColumn DECIMAL NOT NULL
                 )
 
                 CREATE TABLE {_stringTable} (
-                    StringColumn NVARCHAR(50) NULL,
+                    StringColumn NVARCHAR(50) NULL
                 )
 
                 CREATE TABLE {_intTable} (
-                    IntColumn INT NOT NULL,
+                    IntColumn INT NOT NULL
                 )
 
                 CREATE TABLE {_boolTable} (
                     BoolColumn BIT NOT NULL
                 )
             ");
-
-            _sR = new Random();
 
             var item = new ItemToCopy();
 
@@ -123,6 +129,15 @@ namespace Benchmark
         [GlobalSetup]
         public void Setup()
         {
+            _allReader = new EnumerableDataReaderFactoryBuilder<ItemToCopy>(_allTable)
+                .Add("DecimalColumn", i => i.DecimalColumn)
+                .Add("StringColumn", i => i.StringColumn)
+                .Add("IntColumn", i => i.IntColumn)
+                .Add("BoolColumn", i => i.BoolColumn)
+                .BuildFactory()
+                .CreateReader(_items)
+            ;
+
             _decimalReader = new EnumerableDataReaderFactoryBuilder<ItemToCopy>(_decimalTable)
                 .Add("DecimalColumn", i => i.DecimalColumn)
                 .BuildFactory()
@@ -147,6 +162,9 @@ namespace Benchmark
                 .CreateReader(_items)
             ;
         }
+
+        [Benchmark]
+        public void All() => BulkCopy(_allReader, _allTable);
 
         [Benchmark]
         public void Decimal() => BulkCopy(_decimalReader, _decimalTable);
