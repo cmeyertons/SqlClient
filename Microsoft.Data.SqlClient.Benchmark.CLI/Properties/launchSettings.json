@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Microsoft.Data.SqlClient.Benchmark.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "--profile"
+    }
+  }
+}
