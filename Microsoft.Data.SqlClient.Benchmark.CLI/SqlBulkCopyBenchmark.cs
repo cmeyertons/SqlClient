@@ -63,8 +63,9 @@ namespace Microsoft.Data.SqlClient.Benchmark.CLI
             [Benchmark]
             public void BulkCopy()
             {
-                for (int i = 0; i < _iterationCount; i++)
+                for (int i = 1; i <= _iterationCount; i++)
                 {
+                    Console.WriteLine($"{DateTime.Now} - Iteration #{i}");
                     _reader.Close(); // this resets the reader
 
                     using (var bc = new SqlBulkCopy(_connString, SqlBulkCopyOptions.TableLock))
@@ -76,6 +77,8 @@ namespace Microsoft.Data.SqlClient.Benchmark.CLI
                         bc.WriteToServer(_reader);
                     }
                 }
+
+                Console.WriteLine($"{DateTime.Now} - Finished");
             }
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Microsoft.Data.SqlClient.Benchmark.CLI
 {
@@ -6,7 +7,15 @@ namespace Microsoft.Data.SqlClient.Benchmark.CLI
     {
         static void Main(string[] args)
         {
-            SqlBulkCopyBenchmark.RunBenchmark();
+            if (args.Any(a => a == "--profile"))
+            {
+                var b = new SqlBulkCopyBenchmark.InternalBenchmark();
+                b.BulkCopy();
+            }
+            else
+            {
+                SqlBulkCopyBenchmark.RunBenchmark();
+            }
         }
     }
 }
